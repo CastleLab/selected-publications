@@ -1,5 +1,79 @@
 module.exports = [
     {
+        title: "Workflow Refactoring for Maximizing Concurrency and Block-Structuredness",
+        date: "2021",
+        authors: [
+            "Wei Song", "Hans-Arno Jacobsen", "Shing-Chi Cheung", "Hongyu Liu", "Xiaoxing Ma"
+        ],
+        venue: "IEEE Trans. Serv. Comput.",
+        venueShort: "TSC",
+        tags: [
+            "Workflow refactoring", "activity dependence", "concurrency maximization", "block-structuredness", "synchronization links"
+        ],
+        abstract: `
+In the era of Internet and big data, contemporary workflows become increasingly large in scale and complex in structure, introducing greater challenges for workflow modeling. Workflows are not with maximized concurrency and block-structuredness in terms of control flow, though languages supporting block-structuredness (e.g., BPEL) are employed. Existing workflow refactoring approaches mostly focus on maximizing concurrency according to dependences between activities, but do not consider the block-structuredness of the refactored workflow. It is easier to comprehend and analyze a workflow that is block-structured and to transform it into BPEL-like processes. In this paper, we aim at maximizing both concurrency and block-structuredness. Nevertheless, not all workflows can be refactored with a block-structured representation, and it is intractable to make sure that the refactored workflows are as block-structured as possible. We first define a well-formed dependence pattern of activities. The control flow among the activities in this pattern can be represented in block-structured forms with maximized concurrency. Then, we propose a greedy heuristics-based graph reduction approach to recursively find such patterns. In this way, the resulting workflow is with maximized concurrency and its block-structuredness approximates optimality. We show the effectiveness and efficiency of our approach with real-world scientific workflows.
+        `,
+        projectUrl: "",
+        paperUrl: "",
+        slidesUrl: "",
+        bibtex: `
+@article{DBLP:journals/tsc/SongJCLM21,
+  author    = {Wei Song and
+               Hans{-}Arno Jacobsen and
+               Shing{-}Chi Cheung and
+               Hongyu Liu and
+               Xiaoxing Ma},
+  title     = {Workflow Refactoring for Maximizing Concurrency and Block-Structuredness},
+  journal   = {{IEEE} Trans. Serv. Comput.},
+  volume    = {14},
+  number    = {4},
+  pages     = {1224--1237},
+  year      = {2021},
+  url       = {https://doi.org/10.1109/TSC.2018.2867593},
+  doi       = {10.1109/TSC.2018.2867593},
+  timestamp = {Thu, 12 Aug 2021 17:51:00 +0200},
+  biburl    = {https://dblp.org/rec/journals/tsc/SongJCLM21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+        `
+    },
+        {
+        title: "Sifter: A Service Isolation Strategy for Internet Applications",
+        date: "2021",
+        authors: [
+            "Chunyang Ye", "Shing-Chi Cheung", "Wing Kwong Chan"
+        ],
+        venue: "IEEE Trans. Serv. Comput.",
+        venueShort: "TSC",
+        tags: [
+            "Atomicity sphere", "behavior constraint", "exception handling", "implicit interaction", "isolation", "web service"
+        ],
+        abstract: `
+Service oriented architecture (SOA) provides a flexible platform to build collaborative Internet applications by composing existing self-contained and autonomous services. However, the implicit interactions among the concurrently provisioned services may introduce interference to Internet applications and cause them behave abnormally. It is thus desirable to isolate services to safeguard their application consistency. Existing approaches mostly address this problem by restricting concurrent execution of services to avoid all the implicit interactions. These approaches, however, compromise the performance and flexibility of Internet applications due to the long running nature of services. This paper presents Sifter, a new service isolation strategy for Internet applications. We devise in this strategy a novel static approach to analyze the potential implicit interactions among the services and their impacts on the consistency of the associated Internet applications. By locating only those afflicted implicit interactions that may violate the application consistency, a novel approach based on exception handling and behavior constraints is customized to involved services to eliminate their impacts. We show that this approach exempts the consistency property of Internet applications from being interfered at runtime. The experimental results show that our approach has a better performance than existing solutions.
+        `,
+        projectUrl: "",
+        paperUrl: "",
+        slidesUrl: "",
+        bibtex: `
+@article{DBLP:journals/tsc/YeCC21,
+  author    = {Chunyang Ye and
+               Shing{-}Chi Cheung and
+               Wing Kwong Chan},
+  title     = {Sifter: {A} Service Isolation Strategy for Internet Applications},
+  journal   = {{IEEE} Trans. Serv. Comput.},
+  volume    = {14},
+  number    = {5},
+  pages     = {1545--1557},
+  year      = {2021},
+  url       = {https://doi.org/10.1109/TSC.2018.2876254},
+  doi       = {10.1109/TSC.2018.2876254},
+  timestamp = {Wed, 03 Nov 2021 08:27:31 +0100},
+  biburl    = {https://dblp.org/rec/journals/tsc/YeCC21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+        `
+    },
+        {
         title: "ContractGuard: Defend Ethereum Smart Contracts with Embedded Intrusion Detection",
         date: "2020",
         authors: [
@@ -35,7 +109,7 @@ Ethereum smart contracts are programs that can be collectively executed by a net
   timestamp = {Fri, 22 May 2020 21:56:08 +0200},
   biburl    = {https://dblp.org/rec/journals/tsc/WangHXZC20.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
-            }
+}
         `
     },
     {

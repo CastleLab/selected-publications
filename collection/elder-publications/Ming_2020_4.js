@@ -1,11 +1,11 @@
 module.exports = [
   {
     "title": "Historical Spectrum based Fault Localization",
-    "date": "2020",
+    "date": "2021",
     "authors": [
       "Ming Wen", "Junjie Chen", "Yongqiang Tian", "Rongxin Wu", "Dan Hao", "Shi Han", "Shing-Chi Cheung"
     ],
-    "venue": "Transactions of Software Engineering 2020",
+    "venue": "Transactions of Software Engineering 2021",
     "venueShort": "TSE",
     "tags": [],
     "abstract": `
@@ -14,13 +14,17 @@ module.exports = [
     `,
     "paperUrl": "materials/TSE20-ming.pdf",
     "projectUrl": "https://github.com/justinwm/HSFL/",
-    
     "bibtex": `
-@article{WEN_TSE20,
+@article{WEN_TSE21,
  author    = {Ming, Wen and Junjie, Chen and Yongqiang, Tian and Rongxin, Wu and Dan, Hao and Shi, Han and Shing-Chi, Cheung},
  title     = {Historical Spectrum based Fault Localization},
- journal = {IEEE Transactions on Software Engineering (TSE)},
- year      = {2020}
+  journal   = {{IEEE} Trans. Software Eng.},
+  volume    = {47},
+  number    = {11},
+  pages     = {2348--2368},
+  year      = {2021},
+  url       = {https://doi.org/10.1109/TSE.2019.2948158},
+  doi       = {10.1109/TSE.2019.2948158}
 }
     `
   }
