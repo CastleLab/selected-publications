@@ -74,5 +74,31 @@ module.exports = [
             "DNN model", "Backdoor Attack"
         ],
         "projectUrl": "https://github.com/AdvDoor/AdvDoor"
+    },
+    {
+        "title": "Finding Deviated Behaviors of the Compressed DNN Models for Image Classifications.",
+        "date": "2023",
+        "authors": [
+            "Yongqiang Tian", "Wuqi Zhang", "Ming Wen", "Shing-Chi Cheung", "Chengnian Sun", "Shiqing Ma", "Yu Jiang"
+        ],
+        "venue": "ACM Transactions on Software Engineering and Methodology",
+        "venueShort": "TOSEM",
+        "tags": [
+            "DNN model"
+        ],
+        "projectUrl": "https://dl.acm.org/doi/abs/10.1145/3583564"
+    },
+    {
+        "title": "Revisiting the Evaluation of Deep Learning-Based Compiler Testing.",
+        "date": "2023",
+        "authors": [
+            "Yongqiang Tian", "Zhenyang Xu","Yiwen Dong", "Chengnian Sun", "Shing-Chi Cheung"
+        ],
+        "venue": "The 32nd International Joint Conference on Artificial Intelligence",
+        "venueShort": "IJCAI",
+        "tags": [
+            "DNN model", "Backdoor Attack"
+        ],
+        "projectUrl": ""
     }
 ]
