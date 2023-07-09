@@ -97,7 +97,7 @@ module.exports = [
         "venue": "The 32nd International Joint Conference on Artificial Intelligence",
         "venueShort": "IJCAI",
         "tags": [
-            "DNN model", "Backdoor Attack"
+            "Compiler testing"
         ],
         "projectUrl": ""
     }
