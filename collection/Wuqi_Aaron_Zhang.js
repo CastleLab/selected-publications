@@ -58,5 +58,18 @@ module.exports = [
       series = {ESEC/FSE 2021}
     }
     `
+  },
+  {
+    "title": "Combatting Front-Running in Smart Contracts: Attack Mining, Benchmark Construction and Vulnerability Detector Evaluation",
+    "date": "2023",
+    "authors": [
+      "Wuqi Zhang", "Lili Wei", "Shing-Chi Cheung", "Yepang Liu", "Shuqing Li", "Lu Liu", "Michael R. Lyu"
+    ],
+    "venue": "Transactions on Software Engineering",
+    "venueShort": "TSE",
+    "tags": [
+      "Smart Contracts"
+    ],
+    "projectUrl": "https://github.com/Troublor/erebus-redgiant"
   }
 ]
