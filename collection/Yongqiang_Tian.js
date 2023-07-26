@@ -100,5 +100,19 @@ module.exports = [
             "Compiler testing"
         ],
         "projectUrl": ""
+    },
+    ,
+    {
+        "title": "On the Caching Schemes to Speed Up Program Reduction.",
+        "date": "2023",
+        "authors": [
+            "Yongqiang Tian", "Xueyan Zhang", "Yiwen Dong", "Zhenyang Xu", "Mengxiao Zhang", "Yu Jiang", "Shing-Chi Cheung", "Chengnian Sun"
+        ],
+        "venue": "ACM Transactions on Software Engineering and Methodology",
+        "venueShort": "TOSEM",
+        "tags": [
+            "Program Reduction"
+        ],
+        "projectUrl": "https://github.com/uw-pluverse/perses/blob/master/doc/RCC.md"
     }
 ]
