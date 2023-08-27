@@ -1,5 +1,45 @@
 module.exports = [
     {
+        "title": "StubCoder: Automated Generation and Repair of Stub Code for Mock Objects",
+        "date": "2023",
+        "authors": [
+            "Hengcheng Zhu",
+            "Lili Wei",
+            "Valerio Terragni",
+            "Yepang Liu", "Shing-Chi Cheung",
+            "Jiarong Wu",
+            "Qin Sheng",
+            "Bing Zhang",
+            "Lihong Song"
+        ],
+        "venue": "ACM Transactions on Software Engineering and Methodology",
+        "venueShort": "TOSEM",
+        "tags": [
+            "Mocking",
+            "Unit Test"
+        ],
+        "abstract": "Mocking is an essential unit testing technique for isolating the class under test (CUT) from its dependencies. Developers often leverage mocking frameworks to develop stub code that specifies the behaviors of mock objects. However, developing and maintaining stub code is labor-intensive and error-prone. In this paper, we present StubCoder to automatically generate and repair stub code for regression testing. StubCoder implements a novel evolutionary algorithm that synthesizes test-passing stub code guided by the runtime behavior of test cases. We evaluated our proposed approach on 59 test cases from 13 open-source projects. Our evaluation results show that StubCoder can effectively generate stub code for incomplete test cases without stub code and repair obsolete test cases with broken stub code.",
+        "paperUrl": "https://doi.org/10.1145/3617171",
+        "projectUrl": "https://github.com/henryhchchc",
+        "bibtex": `
+        @article{10.1145/3617171,
+        author = {Zhu, Hengcheng and Wei, Lili and Terragni, Valerio and Liu, Yepang and Cheung, Shing-Chi and Wu, Jiarong and Sheng, Qin and Zhang, Bing and Song, Lihong},
+        title = {StubCoder: Automated Generation and Repair of Stub Code for Mock Objects},
+        year = {2023},
+        publisher = {Association for Computing Machinery},
+        address = {New York, NY, USA},
+        issn = {1049-331X},
+        url = {https://doi.org/10.1145/3617171},
+        doi = {10.1145/3617171},
+        abstract = {Mocking is an essential unit testing technique for isolating the class under test (CUT) from its dependencies. Developers often leverage mocking frameworks to develop stub code that specifies the behaviors of mock objects. However, developing and maintaining stub code is labor-intensive and error-prone. In this paper, we present StubCoder to automatically generate and repair stub code for regression testing. StubCoder implements a novel evolutionary algorithm that synthesizes test-passing stub code guided by the runtime behavior of test cases. We evaluated our proposed approach on 59 test cases from 13 open-source projects. Our evaluation results show that StubCoder can effectively generate stub code for incomplete test cases without stub code and repair obsolete test cases with broken stub code.},
+        note = {Just Accepted},
+        journal = {ACM Trans. Softw. Eng. Methodol.},
+        month = {aug},
+        keywords = {Test Generation and Repair, Genetic Programming, Software Testing, Mocking, Evolutionary Computation, Program Analysis}
+        }
+        `
+    },
+    {
         "title": "MockSniffer: Characterizing and Recommending Mocking Decisions for Unit Tests",
         "date": "2020",
         "authors": [
@@ -31,7 +71,7 @@ module.exports = [
             keywords = {unit testing, dependencies, recommendation system, mocking},
             location = {Virtual Event, Australia},
             series = {ASE '20}
-            }
+        }
         `
     },
     {
@@ -58,7 +98,8 @@ module.exports = [
             volume={},
             number={},
             pages={81-92},
-            doi={10.1109/SANER48275.2020.9054800}}
+            doi={10.1109/SANER48275.2020.9054800}
+        }
         `
     }
 ]
