@@ -1,5 +1,49 @@
 module.exports = [
   {
+    "title": 'Nyx: Detecting Exploitable Front-Running Vulnerabilities in Smart Contracts',
+    "date": '2023-11-20',
+    "authors": [
+      'Wuqi Zhang',
+      'Zhuo Zhang',
+      'Qingkai Shi',
+      'Lu Liu',
+      'Lili Wei',
+      'Yepang Liu',
+      'Xiangyu Zhang',
+      'Shing-Chi Cheung',
+    ],
+    "venue": 'The 45th IEEE Symposium on Security and Privacy',
+    "venueShort": 'S&P',
+    "abstract": `Smart contracts are susceptible to front-running attacks, in which malicious users leverage prior knowledge of upcoming transactions to execute attack transactions in advance and benefit their own portfolios. Existing contract analysis techniques raise a number of false positives and false negatives in that they simplistically treat data races in a contract as front-running vulnerabilities and can only analyze contracts in isolation. In this work, we formalize the definition of exploitable front-running vulnerabilities based on previous empirical studies on historical attacks, and present Nyx, a novel static analyzer to detect them. Nyx features a Datalog-based preprocessing procedure that efficiently and soundly prunes a large part of the search space, followed by a symbolic validation engine that precisely locates vulnerabilities with an SMT solver. We evaluate Nyx using a large dataset that comprises 513 real-world front-running attacks in smart contracts. Compared to six state-of-the-art techniques, Nyx surpasses them by 32.64%-90.19% in terms of recall and 2.89%-70.89% in terms of precision. Nyx has also identified four zero-days in real-world smart contracts.`,
+    "projectUrl": '',
+    "arxivUrl": '',
+    "paperUrl": '',
+    "bibtex": '',
+  },
+  {
+    "title":
+      'Combatting Front-Running in Smart Contracts: Attack Mining, Benchmark Construction and Vulnerability Detector Evaluation',
+    "date": '2023-04-15',
+    "authors": [
+      'Wuqi Zhang',
+      'Lili Wei',
+      'Shing-Chi Cheung',
+      'Yepang Liu',
+      'Shuqing Li',
+      'Lu Liu',
+      'Michael R. Lyu',
+    ],
+    "venue": 'Transactions on Software Engineering',
+    "venueShort": 'TSE',
+    "abstract": `
+    Front-running attacks have been a major concern on the blockchain. Attackers launch front-running attacks by inserting additional transactions before upcoming victim transactions to manipulate victim transaction executions and make profits. Recent studies have shown that front-running attacks are prevalent on the Ethereum blockchain and have caused millions of US dollars loss. Vulnerable smart contracts, blockchain programs invoked by transactions, are held responsible for front-running attacks. Although techniques to detect front-running vulnerabilities have been proposed, their performance on real-world vulnerable contracts is unclear. There is no large-scale benchmark based on real attacks to evaluate their capabilities. This motivates us to build a benchmark consisting of 513 real-world attacks with vulnerable code labeled in 235 distinct smart contracts. We propose automated techniques to effectively collect real-world attacks and localize the corresponding vulnerable code at scale. Our experiments show that our approaches are effective, achieving higher recall in finding real attacks and higher precision in pinpointing vulnerabilities compared to the existing techniques. The evaluation of seven state-of-the-art vulnerability detection techniques on the benchmark reveals their inadequacy in detecting front-running vulnerabilities, with a low recall of at most 6.04%. Our further analysis identifies four common limitations in existing techniques: lack of support for inter-contract analysis, inefficient constraint solving for cryptographic operations, improper vulnerability patterns, and lack of token support.
+  `,
+    "projectUrl": 'https://github.com/Troublor/erebus-redgiant',
+    "arxivUrl": '',
+    "paperUrl": 'https://ieeexplore.ieee.org/document/10108045',
+    "bibtex": '',
+  },
+  {
     "title": "ÐArcher: Detecting On-Chain-Off-Chain Synchronization Bugs in Decentralized Applications",
     "date": "2021-08-23",
     "authors": [
