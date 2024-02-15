@@ -1,7 +1,7 @@
 module.exports = [
   {
     "title": 'Nyx: Detecting Exploitable Front-Running Vulnerabilities in Smart Contracts',
-    "date": '2023-11-20',
+    "date": '2024-05-20',
     "authors": [
       'Wuqi Zhang',
       'Zhuo Zhang',
@@ -15,12 +15,12 @@ module.exports = [
     "venue": 'The 45th IEEE Symposium on Security and Privacy',
     "venueShort": 'S&P',
     "tags": [
-      "Blockchain", "Front-running", "Vulnerability", "MEV", "Program Analysi"
+      "Blockchain", "Front-running", "Vulnerability", "MEV", "Program Analysis"
     ],
     "abstract": `Smart contracts are susceptible to front-running attacks, in which malicious users leverage prior knowledge of upcoming transactions to execute attack transactions in advance and benefit their own portfolios. Existing contract analysis techniques raise a number of false positives and false negatives in that they simplistically treat data races in a contract as front-running vulnerabilities and can only analyze contracts in isolation. In this work, we formalize the definition of exploitable front-running vulnerabilities based on previous empirical studies on historical attacks, and present Nyx, a novel static analyzer to detect them. Nyx features a Datalog-based preprocessing procedure that efficiently and soundly prunes a large part of the search space, followed by a symbolic validation engine that precisely locates vulnerabilities with an SMT solver. We evaluate Nyx using a large dataset that comprises 513 real-world front-running attacks in smart contracts. Compared to six state-of-the-art techniques, Nyx surpasses them by 32.64%-90.19% in terms of recall and 2.89%-70.89% in terms of precision. Nyx has also identified four zero-days in real-world smart contracts.`,
     "projectUrl": '',
     "arxivUrl": '',
-    "paperUrl": '',
+    "paperUrl": '{ASSETS}/Nyx-SP24.pdf',
     "bibtex": '',
   },
   {
@@ -109,17 +109,4 @@ module.exports = [
     }
     `
   },
-  {
-    "title": "Combatting Front-Running in Smart Contracts: Attack Mining, Benchmark Construction and Vulnerability Detector Evaluation",
-    "date": "2023",
-    "authors": [
-      "Wuqi Zhang", "Lili Wei", "Shing-Chi Cheung", "Yepang Liu", "Shuqing Li", "Lu Liu", "Michael R. Lyu"
-    ],
-    "venue": "Transactions on Software Engineering",
-    "venueShort": "TSE",
-    "tags": [
-      "Smart Contracts"
-    ],
-    "projectUrl": "https://github.com/Troublor/erebus-redgiant"
-  }
-]
+];
