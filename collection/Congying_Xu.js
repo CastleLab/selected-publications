@@ -14,7 +14,7 @@ module.exports = [
         paperUrl: "https://dl.acm.org/doi/abs/10.1145/3656340",
     },
     {
-        title: "MR-Scout: Automated Synthesis of Metamorphic Relations from Existing Test Cases",
+        title: "MR-Adopt: Automatic Deduction of Input Transformation Function for Metamorphic TestingCCF none",
         date: "2024-09-01",
         authors: [
             "Congying Xu", "Songqiang Chen", "Jiarong Wu", "Shing-Chi Cheung", "Valerio Terragni", "Hengcheng Zhu", "Jialun Cao"
