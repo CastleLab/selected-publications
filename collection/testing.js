@@ -1,10 +1,9 @@
 module.exports = [
     {
-        "title": "Occluded person re-identification via feature enhancement and contextual refinement.",
+        "title": "abcdefghijklmnopqrstuvwxyz",
         "date": "2026",
         "authors": [
-            "Dongcan Liu",
-            "Linfeng Jiang"
+            "Albert",
         ],
         "venue": "Expert Systems with Applications",
         "venueShort": "Expert Syst. Appl.",
