@@ -41,131 +41,179 @@ module.exports = [
         "bibtex": "@inproceedings{DBLP:conf/kbse/ZhuCTWLWC25,\n  author       = {Hengcheng Zhu and\n                  Songqiang Chen and\n                  Valerio Terragni and\n                  Lili Wei and\n                  Yepang Liu and\n                  Jiarong Wu and\n                  Shing{-}Chi Cheung},\n  title        = {LspFuzz: Hunting Bugs in Language Servers},\n  booktitle    = {40th {IEEE/ACM} International Conference on Automated Software Engineering,\n                  {ASE} 2025, Seoul, Korea, Republic of, November 16-20, 2025},\n  pages        = {2209--2221},\n  publisher    = {{IEEE}},\n  year         = {2025},\n  url          = {https://doi.org/10.1109/ASE63991.2025.00183},\n  doi          = {10.1109/ASE63991.2025.00183},\n  timestamp    = {Sun, 08 Feb 2026 15:06:01 +0100},\n  biburl       = {https://dblp.org/rec/conf/kbse/ZhuCTWLWC25.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}"
     },
     {
-        "title": "Word Closure-Based Metamorphic Testing for Machine Translation.",
-        "date": "2024",
+        "title": "Isolating Language-Coding from Problem-Solving: Benchmarking LLMs with PseudoEval.",
+        "date": "2025-01-01",
         "authors": [
-            "Xiaoyuan Xie",
-            "Shuo Jin",
+            "Jiarong Wu",
             "Songqiang Chen",
+            "Jialun Cao",
+            "Hau Ching Lo",
             "Shing-Chi Cheung"
         ],
-        "venue": "ACM Transactions on Software Engineering and Methodology",
-        "venueShort": "ACM",
+        "venue": "",
+        "venueShort": "CoRR",
         "tags": [],
         "awards": [],
         "abstract": "",
-        "arxivUrl": "",
-        "paperUrl": "https://doi.org/10.1145/3675396",
-        "bibtex": "@article{DBLP:journals/tosem/XieJCC24,\n  author       = {Xiaoyuan Xie and\n                  Shuo Jin and\n                  Songqiang Chen and\n                  Shing{-}Chi Cheung},\n  title        = {Word Closure-Based Metamorphic Testing for Machine Translation},\n  journal      = {{ACM} Trans. Softw. Eng. Methodol.},\n  volume       = {33},\n  number       = {8},\n  pages        = {203:1--203:46},\n  year         = {2024},\n  url          = {https://doi.org/10.1145/3675396},\n  doi          = {10.1145/3675396},\n  timestamp    = {Sun, 02 Nov 2025 21:28:35 +0100},\n  biburl       = {https://dblp.org/rec/journals/tosem/XieJCC24.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}"
+        "arxivUrl": "https://arxiv.org/abs/2502.19149",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2502.19149",
+        "bibtex": "@article{DBLP:journals/corr/abs-2502-19149,\n  author       = {Jiarong Wu and\n                  Songqiang Chen and\n                  Jialun Cao and\n                  Hau Ching Lo and\n                  Shing{-}Chi Cheung},\n  title        = {Isolating Language-Coding from Problem-Solving: Benchmarking LLMs\n                  with PseudoEval},\n  journal      = {CoRR},\n  volume       = {abs/2502.19149},\n  year         = {2025},\n  url          = {https://doi.org/10.48550/arXiv.2502.19149},\n  doi          = {10.48550/ARXIV.2502.19149},\n  eprinttype    = {arXiv},\n  eprint       = {2502.19149},\n  timestamp    = {Thu, 20 Mar 2025 21:38:11 +0100},\n  biburl       = {https://dblp.org/rec/journals/corr/abs-2502-19149.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}"
     },
     {
-        "title": "SURE: A Visualized Failure Indexing Approach Using Program Memory Spectrum.",
-        "date": "2024",
+        "title": "When LLMs Meet API Documentation: Can Retrieval Augmentation Aid Code Generation Just as It Helps Developers?",
+        "date": "2025-01-01",
         "authors": [
-            "Yi Song",
-            "Xihao Zhang",
-            "Xiaoyuan Xie",
+            "Jingyi Chen",
             "Songqiang Chen",
-            "Quanming Liu",
-            "Ruizhi Gao"
+            "Jialun Cao",
+            "Jiasi Shen",
+            "Shing-Chi Cheung"
         ],
-        "venue": "ACM Transactions on Software Engineering and Methodology",
-        "venueShort": "ACM",
+        "venue": "",
+        "venueShort": "CoRR",
         "tags": [],
         "awards": [],
         "abstract": "",
-        "arxivUrl": "",
-        "paperUrl": "https://doi.org/10.1145/3676958",
-        "bibtex": "@article{DBLP:journals/tosem/SongZXCLG24,\n  author       = {Yi Song and\n                  Xihao Zhang and\n                  Xiaoyuan Xie and\n                  Songqiang Chen and\n                  Quanming Liu and\n                  Ruizhi Gao},\n  title        = {{SURE:} {A} Visualized Failure Indexing Approach Using Program Memory\n                  Spectrum},\n  journal      = {{ACM} Trans. Softw. Eng. Methodol.},\n  volume       = {33},\n  number       = {8},\n  pages        = {210:1--210:43},\n  year         = {2024},\n  url          = {https://doi.org/10.1145/3676958},\n  doi          = {10.1145/3676958},\n  timestamp    = {Sun, 02 Nov 2025 21:28:35 +0100},\n  biburl       = {https://dblp.org/rec/journals/tosem/SongZXCLG24.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}"
+        "arxivUrl": "https://arxiv.org/abs/2503.15231",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2503.15231",
+        "bibtex": "@article{DBLP:journals/corr/abs-2503-15231,\n  author       = {Jingyi Chen and\n                  Songqiang Chen and\n                  Jialun Cao and\n                  Jiasi Shen and\n                  Shing{-}Chi Cheung},\n  title        = {When LLMs Meet {API} Documentation: Can Retrieval Augmentation Aid\n                  Code Generation Just as It Helps Developers?},\n  journal      = {CoRR},\n  volume       = {abs/2503.15231},\n  year         = {2025},\n  url          = {https://doi.org/10.48550/arXiv.2503.15231},\n  doi          = {10.48550/ARXIV.2503.15231},\n  eprinttype    = {arXiv},\n  eprint       = {2503.15231},\n  timestamp    = {Wed, 30 Apr 2025 15:11:25 +0200},\n  biburl       = {https://dblp.org/rec/journals/corr/abs-2503-15231.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}"
     },
     {
-        "title": "Metamorphic Testing of Image Captioning Systems via Image-Level Reduction.",
-        "date": "2024",
+        "title": "MT4DP: Data Poisoning Attack Detection for DL-based Code Search Models via Metamorphic Testing.",
+        "date": "2025-01-01",
         "authors": [
+            "Gong Chen",
+            "Wenjie Liu",
             "Xiaoyuan Xie",
-            "Xingpeng Li",
+            "Xunzhu Tang",
+            "Tegawendé F. Bissyandé",
             "Songqiang Chen"
         ],
-        "venue": "IEEE Transactions on Software Engineering",
-        "venueShort": "IEEE",
-        "tags": [],
-        "awards": [],
-        "abstract": "The Image Captioning (IC) technique is widely used to describe images in natural language. However, even state-of-the-art IC systems can still produce incorrect captions and lead to misunderstandings. Recently, some IC system testing methods have been proposed. However, these methods still rely on pre-annotated information and hence cannot really alleviate the difficulty in identifying the test oracle. Furthermore, their methods artificially manipulate objects, which may generate unreal images as test cases and thus lead to less meaningful testing results. Thirdly, existing methods have various requirements on the eligibility of source test cases, and hence cannot fully utilize the given images to perform testing. To tackle these issues, in this paper, we propose <sc xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">ReIC</small> to perform metamorphic testing for the IC systems with some image-level reduction transformations like image cropping and stretching. Instead of relying on the pre-annotated information, <sc xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">ReIC</small> uses a localization method to align objects in the caption with corresponding objects in the image, and checks whether each object is correctly described or deleted in the caption after transformation. With the image-level reduction transformations, <sc xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">ReIC</small> does not artificially manipulate any objects and hence can avoid generating unreal follow-up images. Additionally, it eliminates the requirement on the eligibility of source test cases during the metamorphic transformation process, as well as decreases the ambiguity and boosts the diversity among the follow-up test cases, which consequently enables testing to be performed on any test image and reveals more distinct valid violations. We employ <sc xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">ReIC</small> to test five popular IC systems. The results demonstrate that <sc xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">ReIC</small> can sufficiently leverage the provided test images to generate follow-up cases of good realism, and effectively detect a great number of distinct violations, without the need for any pre-annotated information.",
-        "arxivUrl": "",
-        "paperUrl": "https://doi.org/10.1109/TSE.2024.3463747",
-        "bibtex": "@article{DBLP:journals/tse/XieLC24,\n  author       = {Xiaoyuan Xie and\n                  Xingpeng Li and\n                  Songqiang Chen},\n  title        = {Metamorphic Testing of Image Captioning Systems via Image-Level Reduction},\n  journal      = {{IEEE} Trans. Software Eng.},\n  volume       = {50},\n  number       = {11},\n  pages        = {2962--2982},\n  year         = {2024},\n  url          = {https://doi.org/10.1109/TSE.2024.3463747},\n  doi          = {10.1109/TSE.2024.3463747},\n  timestamp    = {Sun, 22 Dec 2024 15:49:15 +0100},\n  biburl       = {https://dblp.org/rec/journals/tse/XieLC24.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}"
-    },
-    {
-        "title": "FastLog: An End-to-End Method to Efficiently Generate and Insert Logging Statements.",
-        "date": "2024",
-        "authors": [
-            "Xiaoyuan Xie",
-            "Zhipeng Cai",
-            "Songqiang Chen",
-            "Jifeng Xuan"
-        ],
-        "venue": "the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis",
-        "venueShort": "ISSTA",
+        "venue": "",
+        "venueShort": "CoRR",
         "tags": [],
         "awards": [],
         "abstract": "",
-        "arxivUrl": "",
-        "paperUrl": "https://doi.org/10.1145/3650212.3652107",
-        "bibtex": "@inproceedings{DBLP:conf/issta/XieCCX24,\n  author       = {Xiaoyuan Xie and\n                  Zhipeng Cai and\n                  Songqiang Chen and\n                  Jifeng Xuan},\n  editor       = {Maria Christakis and\n                  Michael Pradel},\n  title        = {FastLog: An End-to-End Method to Efficiently Generate and Insert Logging\n                  Statements},\n  booktitle    = {Proceedings of the 33rd {ACM} {SIGSOFT} International Symposium on\n                  Software Testing and Analysis, {ISSTA} 2024, Vienna, Austria, September\n                  16-20, 2024},\n  pages        = {26--37},\n  publisher    = {{ACM}},\n  year         = {2024},\n  url          = {https://doi.org/10.1145/3650212.3652107},\n  doi          = {10.1145/3650212.3652107},\n  timestamp    = {Thu, 03 Oct 2024 00:44:59 +0200},\n  biburl       = {https://dblp.org/rec/conf/issta/XieCCX24.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}"
+        "arxivUrl": "https://arxiv.org/abs/2507.11092",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2507.11092",
+        "bibtex": "@article{DBLP:journals/corr/abs-2507-11092,\n  author       = {Gong Chen and\n                  Wenjie Liu and\n                  Xiaoyuan Xie and\n                  Xunzhu Tang and\n                  Tegawend{\\&apos;{e}} F. Bissyand{\\&apos;{e}} and\n                  Songqiang Chen},\n  title        = {{MT4DP:} Data Poisoning Attack Detection for DL-based Code Search\n                  Models via Metamorphic Testing},\n  journal      = {CoRR},\n  volume       = {abs/2507.11092},\n  year         = {2025},\n  url          = {https://doi.org/10.48550/arXiv.2507.11092},\n  doi          = {10.48550/ARXIV.2507.11092},\n  eprinttype    = {arXiv},\n  eprint       = {2507.11092},\n  timestamp    = {Sun, 09 Nov 2025 09:23:02 +0100},\n  biburl       = {https://dblp.org/rec/journals/corr/abs-2507-11092.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}"
     },
     {
-        "title": "MR-Adopt: Automatic Deduction of Input Transformation Function for Metamorphic Testing.",
-        "date": "2024",
+        "title": "What Builds Effective In-Context Examples for Code Generation?",
+        "date": "2025-01-01",
         "authors": [
-            "Congying Xu",
+            "Dongze Li",
             "Songqiang Chen",
-            "Jiarong Wu",
-            "Shing-Chi Cheung",
-            "Valerio Terragni",
-            "Hengcheng Zhu",
-            "Jialun Cao"
+            "Jialun Cao",
+            "Shing-Chi Cheung"
         ],
-        "venue": "the 39th IEEE/ACM International Conference on Automated Software Engineering",
-        "venueShort": "ASE",
+        "venue": "",
+        "venueShort": "CoRR",
         "tags": [],
         "awards": [],
         "abstract": "",
-        "arxivUrl": "",
-        "paperUrl": "https://doi.org/10.1145/3691620.3696020",
-        "bibtex": "@inproceedings{DBLP:conf/kbse/XuCWCT0C24,\n  author       = {Congying Xu and\n                  Songqiang Chen and\n                  Jiarong Wu and\n                  Shing{-}Chi Cheung and\n                  Valerio Terragni and\n                  Hengcheng Zhu and\n                  Jialun Cao},\n  editor       = {Vladimir Filkov and\n                  Baishakhi Ray and\n                  Minghui Zhou},\n  title        = {MR-Adopt: Automatic Deduction of Input Transformation Function for\n                  Metamorphic Testing},\n  booktitle    = {Proceedings of the 39th {IEEE/ACM} International Conference on Automated\n                  Software Engineering, {ASE} 2024, Sacramento, CA, USA, October 27\n                  - November 1, 2024},\n  pages        = {557--569},\n  publisher    = {{ACM}},\n  year         = {2024},\n  url          = {https://doi.org/10.1145/3691620.3696020},\n  doi          = {10.1145/3691620.3696020},\n  timestamp    = {Mon, 03 Mar 2025 21:16:52 +0100},\n  biburl       = {https://dblp.org/rec/conf/kbse/XuCWCT0C24.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}"
+        "arxivUrl": "https://arxiv.org/abs/2508.06414",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2508.06414",
+        "bibtex": "@article{DBLP:journals/corr/abs-2508-06414,\n  author       = {Dongze Li and\n                  Songqiang Chen and\n                  Jialun Cao and\n                  Shing{-}Chi Cheung},\n  title        = {What Builds Effective In-Context Examples for Code Generation?},\n  journal      = {CoRR},\n  volume       = {abs/2508.06414},\n  year         = {2025},\n  url          = {https://doi.org/10.48550/arXiv.2508.06414},\n  doi          = {10.48550/ARXIV.2508.06414},\n  eprinttype    = {arXiv},\n  eprint       = {2508.06414},\n  timestamp    = {Sat, 13 Sep 2025 14:46:20 +0200},\n  biburl       = {https://dblp.org/rec/journals/corr/abs-2508-06414.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}"
     },
     {
-        "title": "qaAskeR+: a novel testing method for question answering software via asking recursive questions.",
-        "date": "2023",
+        "title": "RulER: Automated Rule-Based Semantic Error Localization and Repair for Code Translation.",
+        "date": "2025-01-01",
         "authors": [
-            "Xiaoyuan Xie",
             "Shuo Jin",
-            "Songqiang Chen"
+            "Songqiang Chen",
+            "Xiaoyuan Xie",
+            "Shing-Chi Cheung"
         ],
-        "venue": "Automated Software Engineering",
-        "venueShort": "Autom. Softw. Eng.",
+        "venue": "",
+        "venueShort": "CoRR",
         "tags": [],
         "awards": [],
-        "abstract": "Question Answering (QA) is an attractive and challenging area in NLP community. With the development of QA technique, plenty of QA software has been applied in daily human life to provide convenient access of information retrieval. To investigate the performance of QA software, many benchmark datasets have been constructed to provide various test cases. However, current QA software is mainly tested in a reference-based paradigm, in which the expected outputs (labels) of test cases are mandatory to be annotated with much human effort before testing. As a result, neither the just-in-time test during usage nor the extensible test on massive unlabeled real-life data is feasible, which keeps the current testing of QA software from being flexible and sufficient. In this work, we propose a novel testing method, qaAskeR $$^+$$ + , with five new Metamorphic Relations for QA software. qaAskeR $$^+$$ + does not refer to the annotated labels of test cases. Instead, based on the idea that a correct answer should imply a piece of reliable knowledge that always conforms with any other correct answer, qaAskeR $$^+$$ + tests QA software by inspecting its behaviors on multiple recursively asked questions that are relevant to the same or some further enriched knowledge. Experimental results show that qaAskeR $$^+$$ + can reveal quite a few violations that indicate actual answering issues on various mainstream QA software without using any pre-annotated labels.",
-        "arxivUrl": "",
-        "paperUrl": "https://doi.org/10.1007/s10515-023-00380-2",
-        "bibtex": "@article{DBLP:journals/ase/XieJC23,\n  author       = {Xiaoyuan Xie and\n                  Shuo Jin and\n                  Songqiang Chen},\n  title        = {qaAskeR\\({}^{\\mbox{+}}\\): a novel testing method for question answering\n                  software via asking recursive questions},\n  journal      = {Autom. Softw. Eng.},\n  volume       = {30},\n  number       = {1},\n  pages        = {14},\n  year         = {2023},\n  url          = {https://doi.org/10.1007/s10515-023-00380-2},\n  doi          = {10.1007/S10515-023-00380-2},\n  timestamp    = {Mon, 05 Feb 2024 20:24:13 +0100},\n  biburl       = {https://dblp.org/rec/journals/ase/XieJC23.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}"
+        "abstract": "",
+        "arxivUrl": "https://arxiv.org/abs/2509.14829",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2509.14829",
+        "bibtex": "@article{DBLP:journals/corr/abs-2509-14829,\n  author       = {Shuo Jin and\n                  Songqiang Chen and\n                  Xiaoyuan Xie and\n                  Shing{-}Chi Cheung},\n  title        = {RulER: Automated Rule-Based Semantic Error Localization and Repair\n                  for Code Translation},\n  journal      = {CoRR},\n  volume       = {abs/2509.14829},\n  year         = {2025},\n  url          = {https://doi.org/10.48550/arXiv.2509.14829},\n  doi          = {10.48550/ARXIV.2509.14829},\n  eprinttype    = {arXiv},\n  eprint       = {2509.14829},\n  timestamp    = {Fri, 17 Oct 2025 08:20:35 +0200},\n  biburl       = {https://dblp.org/rec/journals/corr/abs-2509-14829.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}"
     },
     {
-        "title": "Properly Offer Options to Improve the Practicality of Software Document Completion Tools.",
-        "date": "2023",
+        "title": "LSPFuzz: Hunting Bugs in Language Servers.",
+        "date": "2025-01-01",
         "authors": [
-            "Zhipeng Cai",
+            "Hengcheng Zhu",
             "Songqiang Chen",
-            "Xiaoyuan Xie"
+            "Valerio Terragni",
+            "Lili Wei",
+            "Yepang Liu",
+            "Jiarong Wu",
+            "Shing-Chi Cheung"
         ],
-        "venue": "31st IEEE/ACM International Conference on Program Comprehension",
-        "venueShort": "ICPC",
+        "venue": "",
+        "venueShort": "CoRR",
         "tags": [],
         "awards": [],
-        "abstract": "With the great progress in deep learning and natural language processing, many completion tools are proposed to help practitioners efficiently fill in various fields in software document. However, most of these tools offer their users only one option and this option generally requires much revision to meet a satisfactory quality, which hurts much practicality of the completion tools. By finding that the beam search model of such tools often generates a much better output at relatively high confidence and considering the interactive use of such tools, we advise such tools to offer multiple high-confidence model outputs for more chances of offering a good option. And we further suggest these tools offer dissimilar outputs to expand the chance of including a better output in a few options. To evaluate our whole idea, we design a clustering-based initial method to help these tools properly offer some dissimilar model outputs as options. We adopt this method to improve nine completion tools for three software document fields. Results show it can help all the nine tools offer an option that needs less revision from users and thus effectively improve the practicality of tools.",
-        "arxivUrl": "",
-        "paperUrl": "https://doi.org/10.1109/ICPC58990.2023.00038",
-        "bibtex": "@inproceedings{DBLP:conf/iwpc/CaiCX23,\n  author       = {Zhipeng Cai and\n                  Songqiang Chen and\n                  Xiaoyuan Xie},\n  title        = {Properly Offer Options to Improve the Practicality of Software Document\n                  Completion Tools},\n  booktitle    = {31st {IEEE/ACM} International Conference on Program Comprehension,\n                  {ICPC} 2023, Melbourne, Australia, May 15-16, 2023},\n  pages        = {237--241},\n  publisher    = {{IEEE}},\n  year         = {2023},\n  url          = {https://doi.org/10.1109/ICPC58990.2023.00038},\n  doi          = {10.1109/ICPC58990.2023.00038},\n  timestamp    = {Mon, 05 Feb 2024 20:33:14 +0100},\n  biburl       = {https://dblp.org/rec/conf/iwpc/CaiCX23.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}"
+        "abstract": "",
+        "arxivUrl": "https://arxiv.org/abs/2510.00532",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2510.00532",
+        "bibtex": "@article{DBLP:journals/corr/abs-2510-00532,\n  author       = {Hengcheng Zhu and\n                  Songqiang Chen and\n                  Valerio Terragni and\n                  Lili Wei and\n                  Yepang Liu and\n                  Jiarong Wu and\n                  Shing{-}Chi Cheung},\n  title        = {LSPFuzz: Hunting Bugs in Language Servers},\n  journal      = {CoRR},\n  volume       = {abs/2510.00532},\n  year         = {2025},\n  url          = {https://doi.org/10.48550/arXiv.2510.00532},\n  doi          = {10.48550/ARXIV.2510.00532},\n  eprinttype    = {arXiv},\n  eprint       = {2510.00532},\n  timestamp    = {Sat, 08 Nov 2025 10:18:11 +0100},\n  biburl       = {https://dblp.org/rec/journals/corr/abs-2510-00532.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}"
+    },
+    {
+        "title": "Can Emulating Semantic Translation Help LLMs with Code Translation? A Study Based on Pseudocode.",
+        "date": "2025-01-01",
+        "authors": [
+            "Songqiang Chen",
+            "Congying Xu",
+            "Jingyi Chen",
+            "Jialun Cao",
+            "Jiarong Wu",
+            "Shing-Chi Cheung"
+        ],
+        "venue": "",
+        "venueShort": "CoRR",
+        "tags": [],
+        "awards": [],
+        "abstract": "",
+        "arxivUrl": "https://arxiv.org/abs/2510.00920",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2510.00920",
+        "bibtex": "@article{DBLP:journals/corr/abs-2510-00920,\n  author       = {Songqiang Chen and\n                  Congying Xu and\n                  Jingyi Chen and\n                  Jialun Cao and\n                  Jiarong Wu and\n                  Shing{-}Chi Cheung},\n  title        = {Can Emulating Semantic Translation Help LLMs with Code Translation?\n                  {A} Study Based on Pseudocode},\n  journal      = {CoRR},\n  volume       = {abs/2510.00920},\n  year         = {2025},\n  url          = {https://doi.org/10.48550/arXiv.2510.00920},\n  doi          = {10.48550/ARXIV.2510.00920},\n  eprinttype    = {arXiv},\n  eprint       = {2510.00920},\n  timestamp    = {Sat, 08 Nov 2025 10:18:14 +0100},\n  biburl       = {https://dblp.org/rec/journals/corr/abs-2510-00920.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}"
+    },
+    {
+        "title": "Testing and Enhancing Multi-Agent Systems for Robust Code Generation.",
+        "date": "2025-01-01",
+        "authors": [
+            "Zongyi Lyu",
+            "Songqiang Chen",
+            "Zhenlan Ji",
+            "Liwen Wang",
+            "Shuai Wang",
+            "Daoyuan Wu",
+            "Wenxuan Wang",
+            "Shing-Chi Cheung"
+        ],
+        "venue": "",
+        "venueShort": "CoRR",
+        "tags": [],
+        "awards": [],
+        "abstract": "",
+        "arxivUrl": "https://arxiv.org/abs/2510.10460",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2510.10460",
+        "bibtex": "@article{DBLP:journals/corr/abs-2510-10460,\n  author       = {Zongyi Lyu and\n                  Songqiang Chen and\n                  Zhenlan Ji and\n                  Liwen Wang and\n                  Shuai Wang and\n                  Daoyuan Wu and\n                  Wenxuan Wang and\n                  Shing{-}Chi Cheung},\n  title        = {Testing and Enhancing Multi-Agent Systems for Robust Code Generation},\n  journal      = {CoRR},\n  volume       = {abs/2510.10460},\n  year         = {2025},\n  url          = {https://doi.org/10.48550/arXiv.2510.10460},\n  doi          = {10.48550/ARXIV.2510.10460},\n  eprinttype    = {arXiv},\n  eprint       = {2510.10460},\n  timestamp    = {Tue, 11 Nov 2025 13:12:33 +0100},\n  biburl       = {https://dblp.org/rec/journals/corr/abs-2510-10460.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}"
+    },
+    {
+        "title": "Multi-Agent Systems for Dataset Adaptation in Software Engineering: Capabilities, Limitations, and Future Directions.",
+        "date": "2025-01-01",
+        "authors": [
+            "Jingyi Chen",
+            "Xiaoyan Guo",
+            "Songqiang Chen",
+            "Shing-Chi Cheung",
+            "Jiasi Shen"
+        ],
+        "venue": "",
+        "venueShort": "CoRR",
+        "tags": [],
+        "awards": [],
+        "abstract": "",
+        "arxivUrl": "https://arxiv.org/abs/2511.21380",
+        "paperUrl": "https://doi.org/10.48550/arXiv.2511.21380",
+        "bibtex": "@article{DBLP:journals/corr/abs-2511-21380,\n  author       = {Jingyi Chen and\n                  Xiaoyan Guo and\n                  Songqiang Chen and\n                  Shing{-}Chi Cheung and\n                  Jiasi Shen},\n  title        = {Multi-Agent Systems for Dataset Adaptation in Software Engineering:\n                  Capabilities, Limitations, and Future Directions},\n  journal      = {CoRR},\n  volume       = {abs/2511.21380},\n  year         = {2025},\n  url          = {https://doi.org/10.48550/arXiv.2511.21380},\n  doi          = {10.48550/ARXIV.2511.21380},\n  eprinttype    = {arXiv},\n  eprint       = {2511.21380},\n  timestamp    = {Wed, 14 Jan 2026 21:10:58 +0100},\n  biburl       = {https://dblp.org/rec/journals/corr/abs-2511-21380.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}"
     }
 ]
