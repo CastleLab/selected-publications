@@ -21,7 +21,7 @@ module.exports = [
     },
     {
         "title": "LspFuzz: Hunting Bugs in Language Servers.",
-        "date": "2025-01-01",
+        "date": "2025-10-01",
         "authors": [
             "Hengcheng Zhu",
             "Songqiang Chen",
@@ -42,7 +42,7 @@ module.exports = [
     },
     {
         "title": "Isolating Language-Coding from Problem-Solving: Benchmarking LLMs with PseudoEval.",
-        "date": "2025-01-01",
+        "date": "2025-02-26",
         "authors": [
             "Jiarong Wu",
             "Songqiang Chen",
@@ -61,7 +61,7 @@ module.exports = [
     },
     {
         "title": "When LLMs Meet API Documentation: Can Retrieval Augmentation Aid Code Generation Just as It Helps Developers?",
-        "date": "2025-01-01",
+        "date": "2025-03-19",
         "authors": [
             "Jingyi Chen",
             "Songqiang Chen",
@@ -80,7 +80,7 @@ module.exports = [
     },
     {
         "title": "MT4DP: Data Poisoning Attack Detection for DL-based Code Search Models via Metamorphic Testing.",
-        "date": "2025-01-01",
+        "date": "2025-07-15",
         "authors": [
             "Gong Chen",
             "Wenjie Liu",
@@ -100,7 +100,7 @@ module.exports = [
     },
     {
         "title": "What Builds Effective In-Context Examples for Code Generation?",
-        "date": "2025-01-01",
+        "date": "2025-08-08",
         "authors": [
             "Dongze Li",
             "Songqiang Chen",
@@ -118,7 +118,7 @@ module.exports = [
     },
     {
         "title": "RulER: Automated Rule-Based Semantic Error Localization and Repair for Code Translation.",
-        "date": "2025-01-01",
+        "date": "2025-09-18",
         "authors": [
             "Shuo Jin",
             "Songqiang Chen",
@@ -136,7 +136,7 @@ module.exports = [
     },
     {
         "title": "Can Emulating Semantic Translation Help LLMs with Code Translation? A Study Based on Pseudocode.",
-        "date": "2025-01-01",
+        "date": "2025-10-01",
         "authors": [
             "Songqiang Chen",
             "Congying Xu",
@@ -156,7 +156,7 @@ module.exports = [
     },
     {
         "title": "Testing and Enhancing Multi-Agent Systems for Robust Code Generation.",
-        "date": "2025-01-01",
+        "date": "2025-10-12",
         "authors": [
             "Zongyi Lyu",
             "Songqiang Chen",
@@ -178,7 +178,7 @@ module.exports = [
     },
     {
         "title": "Multi-Agent Systems for Dataset Adaptation in Software Engineering: Capabilities, Limitations, and Future Directions.",
-        "date": "2025-01-01",
+        "date": "2025-11-26",
         "authors": [
             "Jingyi Chen",
             "Xiaoyan Guo",
