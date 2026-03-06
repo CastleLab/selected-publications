@@ -19,8 +19,8 @@ async function main() {
             return value;
         }), 'validate date string'),
         authors: Joi.array().min(1).items(Joi.string()).required(),
-        venue: Joi.string().min(1).required(),
-        venueShort: Joi.string().min(1).required(),
+        venue: Joi.string().allow('').required(),
+        venueShort: Joi.string().allow('').required(),
         tags: Joi.array().items(Joi.string()),
         awards: Joi.array().items(Joi.string()),
         paperUrl: Joi.string().allow(null, ''),

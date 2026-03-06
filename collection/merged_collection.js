@@ -1700,7 +1700,6 @@ module.exports = [
     ],
     "projectUrl": ""
   },
-  null,
   {
     "title": "On the Caching Schemes to Speed Up Program Reduction.",
     "date": "2023",
