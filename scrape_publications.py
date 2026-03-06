@@ -751,10 +751,10 @@ def run_git_auto_flow(repo_root, js_filepath, commit_message):
     subprocess.run(["git", "add", js_relpath], cwd=repo_root, check=True)
     diff_result = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=repo_root)
     if diff_result.returncode == 0:
-        print("没有检测到变更，已跳过 git commit / git push")
+        print("没有检测到变更，已跳过 git commit / git push --force")
         return
     subprocess.run(["git", "commit", "-m", commit_message], cwd=repo_root, check=True)
-    subprocess.run(["git", "push"], cwd=repo_root, check=True)
+    subprocess.run(["git", "push", "--force"], cwd=repo_root, check=True)
 
 def format_publications(publications, include_arxiv=False, start_date=""):
     """
@@ -908,7 +908,7 @@ def main():
 
         commit_message = build_commit_message(author_name, formatted_publications)
         run_git_auto_flow(repo_root, js_filepath, commit_message)
-        print("已自动执行 git add / git commit / git push")
+        print("已自动执行 git add / git commit / git push --force")
 
     except Exception as e:
         print(f"An error occurred: {e}")
