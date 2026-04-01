@@ -1,0 +1,24 @@
+{
+  "autoCount": 41,
+  "duplicateCount": 0,
+  "missingCounts": {
+    "venue": 2,
+    "venueShort": 2,
+    "abstract": 2
+  },
+  "duplicates": [],
+  "missing": {
+    "venue": [
+      "Managing Software Supply Chains - Theory and Practice.",
+      "Proceedings of the 15th Asia-Pacific Symposium on Internetware, Internetware 2024, Macau, SAR, China, July 24-26, 2024."
+    ],
+    "venueShort": [
+      "Managing Software Supply Chains - Theory and Practice.",
+      "Proceedings of the 15th Asia-Pacific Symposium on Internetware, Internetware 2024, Macau, SAR, China, July 24-26, 2024."
+    ],
+    "abstract": [
+      "Proceedings of the 15th Asia-Pacific Symposium on Internetware, Internetware 2024, Macau, SAR, China, July 24-26, 2024.",
+      "RegexScalpel: Regular Expression Denial of Service (ReDoS) Defense by Localize-and-Fix."
+    ]
+  }
+}
