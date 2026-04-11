@@ -43,19 +43,16 @@ jobs:
           fi
 
       - name: Install scraper dependencies
+        working-directory: ${{ env.SCRAPER_DIR }}
         run: |
-          chmod +x "$SCRAPER_DIR/sp"
-          "$SCRAPER_DIR/sp" i
+          chmod +x ./sp
+          ./sp i
 
       - name: Run scraper
+        working-directory: ${{ env.SCRAPER_DIR }}
         env:
           VENUE_SHORT_LLM_API_KEY: ${{ secrets.VENUE_SHORT_LLM_API_KEY }}
-        run: |
-          if [ "$SCRAPER_DIR" = "." ]; then
-            "$SCRAPER_DIR/sp" --config config.github.json
-          else
-            "$SCRAPER_DIR/sp" --config "$SCRAPER_DIR/config.github.json"
-          fi
+        run: ./sp --config config.github.json
 
       - name: Commit and push updates
         run: |
