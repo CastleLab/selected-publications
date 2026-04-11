@@ -1,0 +1,77 @@
+name: Auto Scrape
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          submodules: recursive
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Detect scraper directory
+        run: |
+          if [ -x "./sp" ]; then
+            echo "SCRAPER_DIR=." >> "$GITHUB_ENV"
+          elif [ -x "./dblp-publications-scraper/sp" ]; then
+            echo "SCRAPER_DIR=./dblp-publications-scraper" >> "$GITHUB_ENV"
+          else
+            echo "Cannot find sp launcher. Checked ./sp and ./dblp-publications-scraper/sp"
+            ls -la
+            exit 1
+          fi
+
+      - name: Install scraper dependencies
+        run: |
+          chmod +x "$SCRAPER_DIR/sp"
+          "$SCRAPER_DIR/sp" i
+
+      - name: Run scraper
+        env:
+          VENUE_SHORT_LLM_API_KEY: ${{ secrets.VENUE_SHORT_LLM_API_KEY }}
+        run: |
+          if [ "$SCRAPER_DIR" = "." ]; then
+            "$SCRAPER_DIR/sp" --config config.github.json
+          else
+            "$SCRAPER_DIR/sp" --config "$SCRAPER_DIR/config.github.json"
+          fi
+
+      - name: Commit and push updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No staged changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: auto update publications"
+          git push
