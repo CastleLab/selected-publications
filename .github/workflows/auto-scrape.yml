@@ -52,7 +52,20 @@ jobs:
         working-directory: ${{ env.SCRAPER_DIR }}
         env:
           VENUE_SHORT_LLM_API_KEY: ${{ secrets.VENUE_SHORT_LLM_API_KEY }}
-        run: ./sp --config config.github.json
+        run: |
+          CONFIG_FILE="config.github.json"
+          if [ ! -f "$CONFIG_FILE" ]; then
+            CONFIG_FILE="config.json"
+          fi
+
+          if [ ! -f "$CONFIG_FILE" ]; then
+            echo "No config file found in $PWD"
+            ls -la
+            exit 1
+          fi
+
+          echo "Using config: $CONFIG_FILE"
+          ./sp --config "$CONFIG_FILE"
 
       - name: Commit and push updates
         run: |
