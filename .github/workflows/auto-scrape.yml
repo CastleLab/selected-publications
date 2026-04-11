@@ -30,6 +30,11 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
       - name: Detect scraper directory
         run: |
           if [ -x "./sp" ]; then
@@ -87,6 +92,12 @@ jobs:
 
           echo "Using config: $CI_CONFIG_FILE"
           ./sp --config "$CI_CONFIG_FILE"
+
+      - name: Install JS dependencies
+        run: npm install
+
+      - name: Update bundle.json
+        run: npm run build
 
       - name: Commit and push updates
         run: |
