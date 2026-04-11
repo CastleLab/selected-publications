@@ -64,8 +64,29 @@ jobs:
             exit 1
           fi
 
-          echo "Using config: $CONFIG_FILE"
-          ./sp --config "$CONFIG_FILE"
+          CI_CONFIG_FILE="config.ci.json"
+          python - <<'PY'
+          import json
+
+          source_file = "config.github.json"
+          try:
+              with open(source_file, "r", encoding="utf-8") as f:
+                  cfg = json.load(f)
+          except FileNotFoundError:
+              source_file = "config.json"
+              with open(source_file, "r", encoding="utf-8") as f:
+                  cfg = json.load(f)
+
+          cfg["existing_js_path"] = "../collection/auto-collected/auto_collected.js"
+
+          with open("config.ci.json", "w", encoding="utf-8") as f:
+              json.dump(cfg, f, ensure_ascii=False, indent=2)
+
+          print(f"Prepared CI config from: {source_file}")
+          PY
+
+          echo "Using config: $CI_CONFIG_FILE"
+          ./sp --config "$CI_CONFIG_FILE"
 
       - name: Commit and push updates
         run: |
