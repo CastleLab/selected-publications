@@ -101,6 +101,14 @@ jobs:
       - name: Update bundle.json
         run: npm run build
 
+      - name: Check for changes to commit
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit, skipping PR."
+            exit 0
+          fi
+
       - name: Create pull request for updates
         uses: peter-evans/create-pull-request@v7
         with:
