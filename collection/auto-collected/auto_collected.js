@@ -95,25 +95,7 @@ module.exports = [
         "bibtex": "@article{DBLP:journals/pacmse/ZhuTWCWL25,\n  author       = {Hengcheng Zhu and\n                  Valerio Terragni and\n                  Lili Wei and\n                  Shing{-}Chi Cheung and\n                  Jiarong Wu and\n                  Yepang Liu},\n  title        = {Understanding and Characterizing Mock Assertions in Unit Tests},\n  journal      = {Proc. {ACM} Softw. Eng.},\n  volume       = {2},\n  number       = {{FSE}},\n  pages        = {554--575},\n  year         = {2025},\n  url          = {https://doi.org/10.1145/3715741},\n  doi          = {10.1145/3715741},\n  timestamp    = {Sat, 06 Sep 2025 01:00:00 +0200},\n  biburl       = {https://dblp.org/rec/journals/pacmse/ZhuTWCWL25.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
         "awards": []
     },
-    {
-        "title": "SemBIC: Semantic-Aware Identification of Bug-Inducing Commits.",
-        "date": "2025",
-        "authors": [
-            "Xiao Chen",
-            "Hengcheng Zhu",
-            "Jialun Cao",
-            "Ming Wen",
-            "Shing-Chi Cheung"
-        ],
-        "venue": "Proceedings of the ACM on Software Engineering",
-        "venueShort": "",
-        "abstract": "Debugging can be much facilitated if one can identify the evolution commit that introduced the bug leading to a detected failure (aka. bug-inducing commit, BIC). Although one may, in theory, locate BICs by executing the detected failing test on various historical commit versions, it is impractical when the test cannot be executed on some of those versions. On the other hand, existing static techniques often assume the availability of additional information such as patches and bug reports, or the applicability of predefined heuristics like commit chronology. However, these approaches are ineffective when such assumptions do not hold, which are often the case in practice. To address these limitations, we propose SEMBIC to identify the BIC of a bug by statically tracking the semantic changes in the execution path prescribed by the failing test across successive historical commit versions. Our insight is that the greater the semantic changes a commit introduces concerning the failing execution path of a target bug, the more likely it is to be the BIC. To distill semantic changes relevant to the failure, we focus on three fine-grained semantic properties. We evaluate the performance of SEMBIC on a benchmark containing 199 real-world bugs from 12 open-source projects. We found that SEMBIC can identify BICs with high accuracy – it ranks the BIC as top 1 for 88 out of 199 bugs, and achieves an MRR of 0.520, outperforming the state-of-the-art technique by 29.4% and 13.6%, respectively.",
-        "tags": [],
-        "arxivUrl": "",
-        "paperUrl": "https://doi.org/10.1145/3715781",
-        "bibtex": "@article{DBLP:journals/pacmse/ChenZCWC25,\n  author       = {Xiao Chen and\n                  Hengcheng Zhu and\n                  Jialun Cao and\n                  Ming Wen and\n                  Shing{-}Chi Cheung},\n  title        = {SemBIC: Semantic-Aware Identification of Bug-Inducing Commits},\n  journal      = {Proc. {ACM} Softw. Eng.},\n  volume       = {2},\n  number       = {{FSE}},\n  pages        = {1363--1385},\n  year         = {2025},\n  url          = {https://doi.org/10.1145/3715781},\n  doi          = {10.1145/3715781},\n  timestamp    = {Mon, 23 Mar 2026 00:00:00 +0100},\n  biburl       = {https://dblp.org/rec/journals/pacmse/ChenZCWC25.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
-        "awards": []
-    },
+
     {
         "title": "An Empirical Study of Bugs in Data Visualization Libraries.",
         "date": "2025",
@@ -153,27 +135,6 @@ module.exports = [
         "arxivUrl": "",
         "paperUrl": "https://doi.org/10.1109/TSE.2025.3565387",
         "bibtex": "@article{DBLP:journals/tse/WuJWXCX25,\n  author       = {Jiarong Wu and\n                  Yanyan Jiang and\n                  Lili Wei and\n                  Congying Xu and\n                  Shing{-}Chi Cheung and\n                  Chang Xu},\n  title        = {Question Selection for Multimodal Code Search Synthesis Using Probabilistic\n                  Version Spaces},\n  journal      = {{IEEE} Trans. Software Eng.},\n  volume       = {51},\n  number       = {6},\n  pages        = {1724--1744},\n  year         = {2025},\n  url          = {https://doi.org/10.1109/TSE.2025.3565387},\n  doi          = {10.1109/TSE.2025.3565387},\n  timestamp    = {Sun, 06 Jul 2025 01:00:00 +0200},\n  biburl       = {https://dblp.org/rec/journals/tse/WuJWXCX25.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
-        "awards": []
-    },
-    {
-        "title": "DOMAINEVAL: An Auto-Constructed Benchmark for Multi-Domain Code Generation.",
-        "date": "2025",
-        "authors": [
-            "Qiming Zhu",
-            "Jialun Cao",
-            "Yaojie Lu",
-            "Hongyu Lin",
-            "Xianpei Han",
-            "Le Sun",
-            "Shing-Chi Cheung"
-        ],
-        "venue": "Thirty-Ninth AAAI Conference on Artificial Intelligence",
-        "venueShort": "",
-        "abstract": "Code benchmarks such as HumanEval are widely adopted to evaluate the capabilities of Large Language Models (LLMs), providing insights into their strengths and weaknesses. However, current benchmarks primarily exercise LLMs' capability on common coding tasks (e.g., bubble sort, greatest common divisor), leaving domain-specific coding tasks (e.g., computation, system, cryptography) unexplored. To fill this gap, we propose a multi-domain code benchmark, DOMAINEVAL, designed to evaluate LLMs' coding capabilities thoroughly. Our pipeline works in a fully automated manner, enabling a push-button construction from code repositories into formatted subjects under study. Interesting findings are observed by evaluating 12 representative LLMs against DOMAINEVAL. We notice that LLMs are generally good at computation tasks while falling short on cryptography and system coding tasks. The performance gap can be as much as 68.94% (80.94% - 12.0%) in some LLMs. We also observe that generating more samples can increase the overall performance of LLMs, while the domain bias may even increase. The contributions of this study include a code generation benchmark dataset DOMAINEVAL, encompassing six popular domains, a fully automated pipeline for constructing code benchmarks, and an identification of the limitations of LLMs in code generation tasks based on their performance on DOMAINEVAL, providing directions for future research improvements.",
-        "tags": [],
-        "arxivUrl": "",
-        "paperUrl": "https://doi.org/10.1609/aaai.v39i24.34811",
-        "bibtex": "@inproceedings{DBLP:conf/aaai/ZhuC0LH0C25,\n  author       = {Qiming Zhu and\n                  Jialun Cao and\n                  Yaojie Lu and\n                  Hongyu Lin and\n                  Xianpei Han and\n                  Le Sun and\n                  Shing{-}Chi Cheung},\n  editor       = {Toby Walsh and\n                  Julie Shah and\n                  Zico Kolter},\n  title        = {{DOMAINEVAL:} An Auto-Constructed Benchmark for Multi-Domain Code\n                  Generation},\n  booktitle    = {Thirty-Ninth {AAAI} Conference on Artificial Intelligence, Thirty-Seventh\n                  Conference on Innovative Applications of Artificial Intelligence,\n                  Fifteenth Symposium on Educational Advances in Artificial Intelligence,\n                  {AAAI} 2025, Philadelphia, PA, USA, February 25 - March 4, 2025},\n  pages        = {26148--26156},\n  publisher    = {{AAAI} Press},\n  year         = {2025},\n  url          = {https://doi.org/10.1609/aaai.v39i24.34811},\n  doi          = {10.1609/AAAI.V39I24.34811},\n  timestamp    = {Wed, 18 Mar 2026 17:07:12 +0100},\n  biburl       = {https://dblp.org/rec/conf/aaai/ZhuC0LH0C25.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
         "awards": []
     },
     {
@@ -281,25 +242,6 @@ module.exports = [
         "arxivUrl": "",
         "paperUrl": "https://doi.org/10.1145/3755881.3755901",
         "bibtex": "@inproceedings{DBLP:conf/internetware/CaoCZLLC25,\n  author       = {Jialun Cao and\n                  Songqiang Chen and\n                  Wuqi Zhang and\n                  Hau Ching Lo and\n                  Yeting Li and\n                  Shing{-}Chi Cheung},\n  editor       = {Hong Mei and\n                  Jian Lv and\n                  Zhi Jin and\n                  Xuandong Li and\n                  Thomas Zimmermann and\n                  Ge Li and\n                  Lei Bu and\n                  Xin Xia},\n  title        = {CodeCleaner: Mitigating Data Contamination for {LLM} Benchmarking},\n  booktitle    = {Proceedings of the 16th International Conference on Internetware,\n                  Internetware 2025, Trondheim, Norway, June 20-22, 2025},\n  pages        = {71--83},\n  publisher    = {{ACM}},\n  year         = {2025},\n  url          = {https://doi.org/10.1145/3755881.3755901},\n  doi          = {10.1145/3755881.3755901},\n  timestamp    = {Thu, 05 Mar 2026 00:00:00 +0100},\n  biburl       = {https://dblp.org/rec/conf/internetware/CaoCZLLC25.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
-        "awards": []
-    },
-    {
-        "title": "Cross2OH: Enabling Seamless Porting of C/C++ Software Libraries to OpenHarmony.",
-        "date": "2025",
-        "authors": [
-            "Qian Zhang",
-            "Tsz-On Li",
-            "Ying Wang",
-            "Li Li",
-            "Shing-Chi Cheung"
-        ],
-        "venue": "40th IEEE/ACM International Conference on Automated Software Engineering",
-        "venueShort": "",
-        "abstract": "OpenHarmony is a new mobile operating system that offers a popular alternative to Android and iOS. To support its adoption, significant efforts have been devoted to porting C/C++ libraries from Linux to OpenHarmony. However, this porting process presents unique challenges due to the fundamental architectural differences in system libraries, runtime environments, and build systems between the two platforms. These discrepancies manifest as Cross-platform Incompatibility (CPI) issues during cross-compilation, which are particularly difficult to resolve for two key reasons. First, conventional cross-compilation toolchains provide only brief error messages that offer inadequate diagnostic information for CPI issues. Second, resolving these issues requires a deep understanding of cross-platform discrepancies, yet comprehensive documentation or systematic guidelines about such Linux-to-OpenHarmony differences remain largely unavailable.In this experience paper, to assist developers in addressing these challenges, we conducted an empirical study on 92 C/C++ libraries successfully ported to OpenHarmony. Through manual step-by-step reproduction of all CPI issues, our study reveals that discrepancies between Linux and OpenHarmony can be divided into three categories, and CPI issues can manifest through eight dimensions. Furthermore, we identified eight common adaptation strategies for resolving CPI issues. Based on these findings, we present Cross2OH, an automated technique for porting Linux-based software to OpenHarmony. Our approach combines: (1) an adaptation knowledge base (derived from RQ1 and RQ2 findings) and (2) a static analysis approach to detect and patch eight types of CPI issues. Evaluation using real developer patches shows Cross2OH achieves 0.94 recall and 0.91 precision in resolving CPI issues. Notably, Cross2OH enables successful cross-compilation for 40 critical libraries (including dependencies for popular Android apps such as WeChat, Microsoft Excel, Bilibili), with 29 of them passed official OpenHarmony review. The evaluation results demonstrate Cross2OH’s potential to streamline the porting process and foster the growth of the OpenHarmony software ecosystem.",
-        "tags": [],
-        "arxivUrl": "",
-        "paperUrl": "https://doi.org/10.1109/ASE63991.2025.00146",
-        "bibtex": "@inproceedings{DBLP:conf/kbse/ZhangLWLC25,\n  author       = {Qian Zhang and\n                  Tsz{-}On Li and\n                  Ying Wang and\n                  Li Li and\n                  Shing{-}Chi Cheung},\n  title        = {Cross2OH: Enabling Seamless Porting of {C/C++} Software Libraries\n                  to OpenHarmony},\n  booktitle    = {40th {IEEE/ACM} International Conference on Automated Software Engineering,\n                  {ASE} 2025, Seoul, Korea, Republic of, November 16-20, 2025},\n  pages        = {1744--1755},\n  publisher    = {{IEEE}},\n  year         = {2025},\n  url          = {https://doi.org/10.1109/ASE63991.2025.00146},\n  doi          = {10.1109/ASE63991.2025.00146},\n  timestamp    = {Tue, 10 Feb 2026 00:00:00 +0100},\n  biburl       = {https://dblp.org/rec/conf/kbse/ZhangLWLC25.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
         "awards": []
     },
     {
