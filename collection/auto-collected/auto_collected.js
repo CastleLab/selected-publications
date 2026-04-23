@@ -22,6 +22,29 @@ module.exports = [
         "awards": []
     },
     {
+        "title": "A study on prompt design, advantages and limitations of ChatGPT for deep learning program repair.",
+        "date": "2025",
+        "authors": [
+            "Jialun Cao",
+            "Meiziniu Li",
+            "Ming Wen",
+            "Shing-Chi Cheung"
+        ],
+        "venue": "Automated Software Engineering",
+        "venueShort": "ASEJ",
+        "abstract": "The emergence of large language models (LLMs) such as ChatGPT has revolutionized many fields. In particular, recent advances in LLMs have triggered various studies examining the use of these models for software development tasks, such as program repair, code understanding, and code generation. Prior studies have shown the capability of ChatGPT in repairing conventional programs. However, debugging deep learning (DL) programs poses unique challenges since the decision logic is not directly encoded in the source code. This requires LLMs to not only parse the source code syntactically but also understand the intention of DL programs. Therefore, ChatGPT’s capability in repairing DL programs remains unknown. To fill this gap, our study aims to answer three research questions: (1) Can ChatGPT debug DL programs effectively? (2) How can ChatGPT’s repair performance be improved by prompting? (3) In which way can dialogue help facilitate the repair? Our study analyzes the typical information that is useful for prompt design and suggests enhanced prompt templates that are more efficient for repairing DL programs. On top of them, we summarize the dual perspectives (i.e., advantages and disadvantages) of ChatGPT’s ability, such as its handling of API misuse and recommendation, and its shortcomings in identifying default parameters. Our findings indicate that ChatGPT has the potential to repair DL programs effectively and that prompt engineering and dialogue can further improve its performance by providing more code intention. We also identified the key intentions that can enhance ChatGPT’s program repairing capability.",
+        "tags": [
+            "LLM",
+            "Program Repair",
+            "Deep Learning",
+            "Empirical study"
+        ],
+        "arxivUrl": "",
+        "paperUrl": "https://doi.org/10.1007/s10515-025-00492-x",
+        "bibtex": "@article{DBLP:journals/ase/CaoLWC25,\n  author       = {Jialun Cao and\n                  Meiziniu Li and\n                  Ming Wen and\n                  Shing{-}Chi Cheung},\n  title        = {A study on prompt design, advantages and limitations of ChatGPT for\n                  deep learning program repair},\n  journal      = {Autom. Softw. Eng.},\n  volume       = {32},\n  number       = {1},\n  pages        = {30},\n  year         = {2025},\n  url          = {https://doi.org/10.1007/s10515-025-00492-x},\n  doi          = {10.1007/S10515-025-00492-X},\n  timestamp    = {Sun, 15 Jun 2025 01:00:00 +0200},\n  biburl       = {https://dblp.org/rec/journals/ase/CaoLWC25.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
+        "awards": []
+    },
+    {
         "title": "How far are app secrets from being stolen? a case study on android.",
         "date": "2025",
         "authors": [
@@ -69,6 +92,31 @@ module.exports = [
         "arxivUrl": "",
         "paperUrl": "https://doi.org/10.1007/s10664-025-10685-3",
         "bibtex": "@article{DBLP:journals/ese/LiuWZLZLCL25,\n  author       = {Lu Liu and\n                  Lili Wei and\n                  Wuqi Zhang and\n                  Shuqing Li and\n                  Yifan Zhou and\n                  Yepang Liu and\n                  Shing{-}Chi Cheung and\n                  Michael R. Lyu},\n  title        = {On state reverting in solidity smart contracts: Developer practices,\n                  fault categorization, and tool evaluation},\n  journal      = {Empir. Softw. Eng.},\n  volume       = {30},\n  number       = {5},\n  pages        = {141},\n  year         = {2025},\n  url          = {https://doi.org/10.1007/s10664-025-10685-3},\n  doi          = {10.1007/S10664-025-10685-3},\n  timestamp    = {Tue, 05 Aug 2025 01:00:00 +0200},\n  biburl       = {https://dblp.org/rec/journals/ese/LiuWZLZLCL25.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
+        "awards": []
+    },
+    {
+        "title": "Understanding and Characterizing Mock Assertions in Unit Tests.",
+        "date": "2025",
+        "authors": [
+            "Hengcheng Zhu",
+            "Valerio Terragni",
+            "Lili Wei",
+            "Shing-Chi Cheung",
+            "Jiarong Wu",
+            "Yepang Liu"
+        ],
+        "venue": "Proceedings of the ACM on Software Engineering",
+        "venueShort": "FSE",
+        "abstract": "Mock assertions provide developers with a powerful means to validate program behaviors that are unobservable to test assertions. Despite their significance, they are rarely considered by automated test generation techniques. Effective generation of mock assertions requires understanding how they are used in practice. Although previous studies highlighted the importance of mock assertions, none provide insight into their usages. To bridge this gap, we conducted the first empirical study on mock assertions, examining their adoption, the characteristics of the verified method invocations, and their effectiveness in fault detection. Our analysis of 4,652 test cases from 11 popular Java projects reveals that mock assertions are mostly applied to validating specific kinds of method calls, such as those interacting with external resources and those reflecting whether a certain code path was traversed in systems under test. Additionally, we find that mock assertions complement traditional test assertions by ensuring the desired side effects have been produced, validating control flow logic, and checking internal computation results. Our findings contribute to a better understanding of mock assertion usages and provide a foundation for future related research such as automated test generation that support mock assertions.",
+        "tags": [
+            "Mocking",
+            "Empirical study",
+            "Unit Test",
+            "Java"
+        ],
+        "arxivUrl": "",
+        "paperUrl": "https://doi.org/10.1145/3715741",
+        "bibtex": "@article{DBLP:journals/pacmse/ZhuTWCWL25,\n  author       = {Hengcheng Zhu and\n                  Valerio Terragni and\n                  Lili Wei and\n                  Shing{-}Chi Cheung and\n                  Jiarong Wu and\n                  Yepang Liu},\n  title        = {Understanding and Characterizing Mock Assertions in Unit Tests},\n  journal      = {Proc. {ACM} Softw. Eng.},\n  volume       = {2},\n  number       = {{FSE}},\n  pages        = {554--575},\n  year         = {2025},\n  url          = {https://doi.org/10.1145/3715741},\n  doi          = {10.1145/3715741},\n  timestamp    = {Sat, 06 Sep 2025 01:00:00 +0200},\n  biburl       = {https://dblp.org/rec/journals/pacmse/ZhuTWCWL25.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
         "awards": []
     },
     {
@@ -553,33 +601,6 @@ module.exports = [
         "awards": []
     },
     {
-        "title": "Runtime Permission Issues in Android Apps: Taxonomy, Practices, and Ways Forward.",
-        "date": "2021-01-01",
-        "authors": [
-            "Ying Wang",
-            "Yibo Wang",
-            "Sinan Wang",
-            "Yepang Liu",
-            "Chang Xu",
-            "Shing-Chi Cheung",
-            "Hai Yu",
-            "Zhiliang Zhu"
-        ],
-        "venue": "IEEE Transactions on Software Engineering",
-        "venueShort": "TSE",
-        "abstract": "Android introduces a new permission model that allows apps to request permissions at runtime rather than at the installation time since 6.0 (Marshmallow, API level 23). While this runtime permission model provides users with greater flexibility in controlling an app's access to sensitive data and system features, it brings new challenges to app development. First, as users may grant or revoke permissions at any time while they are using an app, developers need to ensure that the app properly checks and requests required permissions before invoking any permission-protected APIs. Second, Android's permission mechanism keeps evolving and getting customized by device manufacturers. Developers are expected to comprehensively test their apps on different Android versions and device models to make sure permissions are properly requested in all situations. Unfortunately, these requirements are often impractical for developers. In practice, many Android apps suffer from various runtime permission issues (ARP issues). While existing studies have explored ARP issues, the understanding of such issues is still preliminary. To better characterize ARP issues, we performed an empirical study using 135 Stack Overflow posts that discuss ARP issues and 199 real ARP issues archived in popular open-source Android projects on GitHub. Via analyzing the data, we observed 11 types of ARP issues that commonly occur in Android apps. For each type of issues, we systematically studied: (1) how they can be manifested, (2) how pervasive and serious they are in real-world apps, and (3) how they can be fixed. We also analyzed the evolution trend of different types of issues from 2015 to 2020 to understand their impact on the Android ecosystem. Furthermore, we conducted a field survey and in-depth interviews among the practitioners from open-source community and industry, to gain insights from practitioners’ practices and learn their requirements of tools that can help combat ARP issues. Finally, to understand the strengths and weaknesses of the existing tools that can detect ARP issues, we built <sc xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">ARPBench</small> , an open benchmark consisting of 94 real ARP issues, and evaluated the performance of three available tools. The experimental results indicate that the existing tools have very limited supports for detecting our observed issue types and report a large number of false alarms. We further analyzed the tools’ limitations and summarized the challenges of designing an effective ARP issue detection technique. We hope that our findings can shed light on future research and provide useful guidance to practitioners.",
-        "tags": [
-            "Android",
-            "Empirical study",
-            "Security",
-            "Testing"
-        ],
-        "arxivUrl": "",
-        "paperUrl": "https://doi.org/10.1109/TSE.2022.3148258",
-        "bibtex": "@article{DBLP:journals/tse/WangWWLXCYZ23,\n  author       = {Ying Wang and\n                  Yibo Wang and\n                  Sinan Wang and\n                  Yepang Liu and\n                  Chang Xu and\n                  Shing{-}Chi Cheung and\n                  Hai Yu and\n                  Zhiliang Zhu},\n  title        = {Runtime Permission Issues in Android Apps: Taxonomy, Practices, and\n                  Ways Forward},\n  journal      = {{IEEE} Trans. Software Eng.},\n  volume       = {49},\n  number       = {1},\n  pages        = {185--210},\n  year         = {2023},\n  url          = {https://doi.org/10.1109/TSE.2022.3148258},\n  doi          = {10.1109/TSE.2022.3148258},\n  timestamp    = {Thu, 21 Nov 2024 00:00:00 +0100},\n  biburl       = {https://dblp.org/rec/journals/tse/WangWWLXCYZ23.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
-        "awards": []
-    },
-    {
         "title": "Plumber: Boosting the Propagation of Vulnerability Fixes in the npm Ecosystem.",
         "date": "2023",
         "authors": [
@@ -777,31 +798,6 @@ module.exports = [
         "awards": []
     },
     {
-        "title": "SemMT: A Semantic-Based Testing Approach for Machine Translation Systems.",
-        "date": "2020-01-01",
-        "authors": [
-            "Jialun Cao",
-            "Meiziniu Li",
-            "Yeting Li",
-            "Ming Wen",
-            "Shing-Chi Cheung",
-            "Haiming Chen"
-        ],
-        "venue": "ACM Transactions on Software Engineering and Methodology",
-        "venueShort": "TOSEM",
-        "abstract": "Machine translation has wide applications in daily life. In mission-critical applications such as translating official documents, incorrect translation can have unpleasant or sometimes catastrophic consequences. This motivates recent research on the testing methodologies for machine translation systems. Existing methodologies mostly rely on metamorphic relations designed at the textual level (e.g., Levenshtein distance) or syntactic level (e.g., distance between grammar structures) to determine the correctness of translation results. However, these metamorphic relations do not consider whether the original and the translated sentences have the same meaning (i.e., semantic similarity). To address this problem, in this article we propose SemMT, an automatic testing approach for machine translation systems based on semantic similarity checking. SemMT applies round-trip translation and measures the semantic similarity between the original and the translated sentences. Our insight is that the semantics concerning logical relations and quantifiers in sentences can be captured by regular expressions (or deterministic finite automata) where efficient semantic equivalence/similarity checking algorithms can be applied. Leveraging the insight, we propose three semantic similarity metrics and implement them in SemMT. We compared SemMT with related state-of-the-art testing techniques, demonstrating the effectiveness of mistranslation detection. The experiment results show that SemMT outperforms existing metrics, achieving an increase of 34.2% and 15.4% on accuracy and F-score, respectively. We also study the possibility of further enhancing the performance by combining various metrics. Finally, we discuss a solution to locate the suspicious trip in round-trip translation, which provides hints for bug diagnosis.",
-        "tags": [
-            "Metamorphic Testing",
-            "Machine Translation",
-            "Semantic Similarity",
-            "Regular expression"
-        ],
-        "arxivUrl": "",
-        "paperUrl": "https://doi.org/10.1145/3490488",
-        "bibtex": "@article{DBLP:journals/tosem/CaoLLWCC22,\n  author       = {Jialun Cao and\n                  Meiziniu Li and\n                  Yeting Li and\n                  Ming Wen and\n                  Shing{-}Chi Cheung and\n                  Haiming Chen},\n  title        = {SemMT: {A} Semantic-Based Testing Approach for Machine Translation\n                  Systems},\n  journal      = {{ACM} Trans. Softw. Eng. Methodol.},\n  volume       = {31},\n  number       = {2},\n  pages        = {34e:1--34e:36},\n  year         = {2022},\n  url          = {https://doi.org/10.1145/3490488},\n  doi          = {10.1145/3490488},\n  timestamp    = {Thu, 22 May 2025 01:00:00 +0200},\n  biburl       = {https://dblp.org/rec/journals/tosem/CaoLLWCC22.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
-        "awards": []
-    },
-    {
         "title": "APER: Evolution-Aware Runtime Permission Misuse Detection for Android Apps.",
         "date": "2022",
         "authors": [
@@ -926,6 +922,33 @@ module.exports = [
         "awards": []
     },
     {
+        "title": "Runtime Permission Issues in Android Apps: Taxonomy, Practices, and Ways Forward.",
+        "date": "2021-01-01",
+        "authors": [
+            "Ying Wang",
+            "Yibo Wang",
+            "Sinan Wang",
+            "Yepang Liu",
+            "Chang Xu",
+            "Shing-Chi Cheung",
+            "Hai Yu",
+            "Zhiliang Zhu"
+        ],
+        "venue": "IEEE Transactions on Software Engineering",
+        "venueShort": "TSE",
+        "abstract": "Android introduces a new permission model that allows apps to request permissions at runtime rather than at the installation time since 6.0 (Marshmallow, API level 23). While this runtime permission model provides users with greater flexibility in controlling an app's access to sensitive data and system features, it brings new challenges to app development. First, as users may grant or revoke permissions at any time while they are using an app, developers need to ensure that the app properly checks and requests required permissions before invoking any permission-protected APIs. Second, Android's permission mechanism keeps evolving and getting customized by device manufacturers. Developers are expected to comprehensively test their apps on different Android versions and device models to make sure permissions are properly requested in all situations. Unfortunately, these requirements are often impractical for developers. In practice, many Android apps suffer from various runtime permission issues (ARP issues). While existing studies have explored ARP issues, the understanding of such issues is still preliminary. To better characterize ARP issues, we performed an empirical study using 135 Stack Overflow posts that discuss ARP issues and 199 real ARP issues archived in popular open-source Android projects on GitHub. Via analyzing the data, we observed 11 types of ARP issues that commonly occur in Android apps. For each type of issues, we systematically studied: (1) how they can be manifested, (2) how pervasive and serious they are in real-world apps, and (3) how they can be fixed. We also analyzed the evolution trend of different types of issues from 2015 to 2020 to understand their impact on the Android ecosystem. Furthermore, we conducted a field survey and in-depth interviews among the practitioners from open-source community and industry, to gain insights from practitioners’ practices and learn their requirements of tools that can help combat ARP issues. Finally, to understand the strengths and weaknesses of the existing tools that can detect ARP issues, we built <sc xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">ARPBench</small> , an open benchmark consisting of 94 real ARP issues, and evaluated the performance of three available tools. The experimental results indicate that the existing tools have very limited supports for detecting our observed issue types and report a large number of false alarms. We further analyzed the tools’ limitations and summarized the challenges of designing an effective ARP issue detection technique. We hope that our findings can shed light on future research and provide useful guidance to practitioners.",
+        "tags": [
+            "Android",
+            "Empirical study",
+            "Security",
+            "Testing"
+        ],
+        "arxivUrl": "",
+        "paperUrl": "https://doi.org/10.1109/TSE.2022.3148258",
+        "bibtex": "@article{DBLP:journals/tse/WangWWLXCYZ23,\n  author       = {Ying Wang and\n                  Yibo Wang and\n                  Sinan Wang and\n                  Yepang Liu and\n                  Chang Xu and\n                  Shing{-}Chi Cheung and\n                  Hai Yu and\n                  Zhiliang Zhu},\n  title        = {Runtime Permission Issues in Android Apps: Taxonomy, Practices, and\n                  Ways Forward},\n  journal      = {{IEEE} Trans. Software Eng.},\n  volume       = {49},\n  number       = {1},\n  pages        = {185--210},\n  year         = {2023},\n  url          = {https://doi.org/10.1109/TSE.2022.3148258},\n  doi          = {10.1109/TSE.2022.3148258},\n  timestamp    = {Thu, 21 Nov 2024 00:00:00 +0100},\n  biburl       = {https://dblp.org/rec/journals/tse/WangWWLXCYZ23.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
+        "awards": []
+    },
+    {
         "title": "Characterizing Transaction-Reverting Statements in Ethereum Smart Contracts.",
         "date": "2021",
         "authors": [
@@ -951,50 +974,28 @@ module.exports = [
         "awards": []
     },
     {
-        "title": "A study on prompt design, advantages and limitations of ChatGPT for deep learning program repair.",
-        "date": "2025",
+        "title": "SemMT: A Semantic-Based Testing Approach for Machine Translation Systems.",
+        "date": "2020-01-01",
         "authors": [
             "Jialun Cao",
             "Meiziniu Li",
+            "Yeting Li",
             "Ming Wen",
-            "Shing-Chi Cheung"
-        ],
-        "venue": "Automated Software Engineering",
-        "venueShort": "ASEJ",
-        "abstract": "The emergence of large language models (LLMs) such as ChatGPT has revolutionized many fields. In particular, recent advances in LLMs have triggered various studies examining the use of these models for software development tasks, such as program repair, code understanding, and code generation. Prior studies have shown the capability of ChatGPT in repairing conventional programs. However, debugging deep learning (DL) programs poses unique challenges since the decision logic is not directly encoded in the source code. This requires LLMs to not only parse the source code syntactically but also understand the intention of DL programs. Therefore, ChatGPT’s capability in repairing DL programs remains unknown. To fill this gap, our study aims to answer three research questions: (1) Can ChatGPT debug DL programs effectively? (2) How can ChatGPT’s repair performance be improved by prompting? (3) In which way can dialogue help facilitate the repair? Our study analyzes the typical information that is useful for prompt design and suggests enhanced prompt templates that are more efficient for repairing DL programs. On top of them, we summarize the dual perspectives (i.e., advantages and disadvantages) of ChatGPT’s ability, such as its handling of API misuse and recommendation, and its shortcomings in identifying default parameters. Our findings indicate that ChatGPT has the potential to repair DL programs effectively and that prompt engineering and dialogue can further improve its performance by providing more code intention. We also identified the key intentions that can enhance ChatGPT’s program repairing capability.",
-        "tags": [
-            "LLM",
-            "Program Repair",
-            "Deep Learning"
-        ],
-        "arxivUrl": "",
-        "paperUrl": "https://doi.org/10.1007/s10515-025-00492-x",
-        "bibtex": "@article{DBLP:journals/ase/CaoLWC25,\n  author       = {Jialun Cao and\n                  Meiziniu Li and\n                  Ming Wen and\n                  Shing{-}Chi Cheung},\n  title        = {A study on prompt design, advantages and limitations of ChatGPT for\n                  deep learning program repair},\n  journal      = {Autom. Softw. Eng.},\n  volume       = {32},\n  number       = {1},\n  pages        = {30},\n  year         = {2025},\n  url          = {https://doi.org/10.1007/s10515-025-00492-x},\n  doi          = {10.1007/S10515-025-00492-X},\n  timestamp    = {Sun, 15 Jun 2025 01:00:00 +0200},\n  biburl       = {https://dblp.org/rec/journals/ase/CaoLWC25.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
-        "awards": []
-    },
-    {
-        "title": "Understanding and Characterizing Mock Assertions in Unit Tests.",
-        "date": "2025",
-        "authors": [
-            "Hengcheng Zhu",
-            "Valerio Terragni",
-            "Lili Wei",
             "Shing-Chi Cheung",
-            "Jiarong Wu",
-            "Yepang Liu"
+            "Haiming Chen"
         ],
-        "venue": "Proceedings of the ACM on Software Engineering",
+        "venue": "ACM Transactions on Software Engineering and Methodology",
         "venueShort": "TOSEM",
-        "abstract": "Mock assertions provide developers with a powerful means to validate program behaviors that are unobservable to test assertions. Despite their significance, they are rarely considered by automated test generation techniques. Effective generation of mock assertions requires understanding how they are used in practice. Although previous studies highlighted the importance of mock assertions, none provide insight into their usages. To bridge this gap, we conducted the first empirical study on mock assertions, examining their adoption, the characteristics of the verified method invocations, and their effectiveness in fault detection. Our analysis of 4,652 test cases from 11 popular Java projects reveals that mock assertions are mostly applied to validating specific kinds of method calls, such as those interacting with external resources and those reflecting whether a certain code path was traversed in systems under test. Additionally, we find that mock assertions complement traditional test assertions by ensuring the desired side effects have been produced, validating control flow logic, and checking internal computation results. Our findings contribute to a better understanding of mock assertion usages and provide a foundation for future related research such as automated test generation that support mock assertions.",
+        "abstract": "Machine translation has wide applications in daily life. In mission-critical applications such as translating official documents, incorrect translation can have unpleasant or sometimes catastrophic consequences. This motivates recent research on the testing methodologies for machine translation systems. Existing methodologies mostly rely on metamorphic relations designed at the textual level (e.g., Levenshtein distance) or syntactic level (e.g., distance between grammar structures) to determine the correctness of translation results. However, these metamorphic relations do not consider whether the original and the translated sentences have the same meaning (i.e., semantic similarity). To address this problem, in this article we propose SemMT, an automatic testing approach for machine translation systems based on semantic similarity checking. SemMT applies round-trip translation and measures the semantic similarity between the original and the translated sentences. Our insight is that the semantics concerning logical relations and quantifiers in sentences can be captured by regular expressions (or deterministic finite automata) where efficient semantic equivalence/similarity checking algorithms can be applied. Leveraging the insight, we propose three semantic similarity metrics and implement them in SemMT. We compared SemMT with related state-of-the-art testing techniques, demonstrating the effectiveness of mistranslation detection. The experiment results show that SemMT outperforms existing metrics, achieving an increase of 34.2% and 15.4% on accuracy and F-score, respectively. We also study the possibility of further enhancing the performance by combining various metrics. Finally, we discuss a solution to locate the suspicious trip in round-trip translation, which provides hints for bug diagnosis.",
         "tags": [
-            "Mocking",
-            "Empirical Study",
-            "Unit Test",
-            "Java"
+            "Metamorphic Testing",
+            "Machine Translation",
+            "Semantic Similarity",
+            "Regular expression"
         ],
         "arxivUrl": "",
-        "paperUrl": "https://doi.org/10.1145/3715741",
-        "bibtex": "@article{DBLP:journals/pacmse/ZhuTWCWL25,\n  author       = {Hengcheng Zhu and\n                  Valerio Terragni and\n                  Lili Wei and\n                  Shing{-}Chi Cheung and\n                  Jiarong Wu and\n                  Yepang Liu},\n  title        = {Understanding and Characterizing Mock Assertions in Unit Tests},\n  journal      = {Proc. {ACM} Softw. Eng.},\n  volume       = {2},\n  number       = {{FSE}},\n  pages        = {554--575},\n  year         = {2025},\n  url          = {https://doi.org/10.1145/3715741},\n  doi          = {10.1145/3715741},\n  timestamp    = {Sat, 06 Sep 2025 01:00:00 +0200},\n  biburl       = {https://dblp.org/rec/journals/pacmse/ZhuTWCWL25.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
+        "paperUrl": "https://doi.org/10.1145/3490488",
+        "bibtex": "@article{DBLP:journals/tosem/CaoLLWCC22,\n  author       = {Jialun Cao and\n                  Meiziniu Li and\n                  Yeting Li and\n                  Ming Wen and\n                  Shing{-}Chi Cheung and\n                  Haiming Chen},\n  title        = {SemMT: {A} Semantic-Based Testing Approach for Machine Translation\n                  Systems},\n  journal      = {{ACM} Trans. Softw. Eng. Methodol.},\n  volume       = {31},\n  number       = {2},\n  pages        = {34e:1--34e:36},\n  year         = {2022},\n  url          = {https://doi.org/10.1145/3490488},\n  doi          = {10.1145/3490488},\n  timestamp    = {Thu, 22 May 2025 01:00:00 +0200},\n  biburl       = {https://dblp.org/rec/journals/tosem/CaoLLWCC22.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
         "awards": []
     }
 ]
