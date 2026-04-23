@@ -31,7 +31,7 @@ module.exports = [
             "Shing-Chi Cheung"
         ],
         "venue": "Automated Software Engineering",
-        "venueShort": "ASE",
+        "venueShort": "ASEJ",
         "abstract": "The emergence of large language models (LLMs) such as ChatGPT has revolutionized many fields. In particular, recent advances in LLMs have triggered various studies examining the use of these models for software development tasks, such as program repair, code understanding, and code generation. Prior studies have shown the capability of ChatGPT in repairing conventional programs. However, debugging deep learning (DL) programs poses unique challenges since the decision logic is not directly encoded in the source code. This requires LLMs to not only parse the source code syntactically but also understand the intention of DL programs. Therefore, ChatGPT’s capability in repairing DL programs remains unknown. To fill this gap, our study aims to answer three research questions: (1) Can ChatGPT debug DL programs effectively? (2) How can ChatGPT’s repair performance be improved by prompting? (3) In which way can dialogue help facilitate the repair? Our study analyzes the typical information that is useful for prompt design and suggests enhanced prompt templates that are more efficient for repairing DL programs. On top of them, we summarize the dual perspectives (i.e., advantages and disadvantages) of ChatGPT’s ability, such as its handling of API misuse and recommendation, and its shortcomings in identifying default parameters. Our findings indicate that ChatGPT has the potential to repair DL programs effectively and that prompt engineering and dialogue can further improve its performance by providing more code intention. We also identified the key intentions that can enhance ChatGPT’s program repairing capability.",
         "tags": [
             "LLM",
@@ -54,7 +54,7 @@ module.exports = [
             "Kevin Li"
         ],
         "venue": "Empirical Software Engineering",
-        "venueShort": "ESE",
+        "venueShort": "EMSE",
         "abstract": "Android apps can hold secret strings of themselves such as cloud service credentials or encryption keys. Leakage of such secret strings can induce unprecedented consequences like monetary losses or leakage of user private information. In practice, various security issues were reported because many apps failed to protect their secrets. However, litte is known about the types, usages, exploitability, and consequences of app secret leakage issues. While a large body of literature has been devoted to studying user private information leakage, there is no systematic study characterizing app secret leakage issues. How far are Android app secrets from being stolen? To bridge this gap, we conducted the first systematic study to characterize app secret leakage issues in Android apps based on 575 potential app secrets sampled from 14,665 popular Android apps on Google Play. We summarized the common categories of leaked app secrets, assessed their security impacts and disclosed app bad practices in storing app secrets. We devised a text mining strategy using regular expressions and demonstrated that numerous app secrets can be easily stolen, even from the highly popular Android apps on Google. In a follow-up study, we harvested 3,711 distinct exploitable app secrets through automatic analysis. Our findings highlight the prevalence of this problem and call for greater attention to app secret protection.",
         "tags": [
             "Android",
@@ -81,13 +81,13 @@ module.exports = [
             "Michael R. Lyu"
         ],
         "venue": "Empirical Software Engineering",
-        "venueShort": "ESE",
+        "venueShort": "EMSE",
         "abstract": "Smart contracts are computer programs deployed on blockchains to facilitate transactions. A critical aspect of smart contract security is the use of state-reverting statements (e.g., require, if...revert, if...throw). These statements protect transactions from abnormal behaviors or malicious attacks by reverting a contract to its previous state when certain input constraints or security properties are violated. While essential, the correct use of these state-reverting (SR) statements is nontrivial. Improper use can lead to security vulnerabilities, resulting in substantial financial losses or other severe consequences. It is, therefore, highly important to understand developers’ practices of state reverting in smart contracts and the common mistakes they make. To achieve this goal, we conduct the first comprehensive empirical study on the use of SR statements and their related faults in Solidity smart contracts. First, we analyze the prevalence and purposes of SR statements in 21,414 verified contracts from popular decentralized applications (dapps) and manually examine 381 SR statements, leading to a taxonomy of their uses. Second, we collect 320 real-world state-reverting faults (SR faults) from open-source projects on GitHub and audit reports on Code4rena. We categorize the SR faults into 17 types and summarize 12 distinct fixing strategies. This knowledge can help researchers and practitioners to better understand the common usages of SR statements and learn how to prevent or cope with SR faults. Lastly, the variety of SR fault types and the presence of high-risk issues highlight the need for automated tools to identify and mitigate these faults. This further motivates us to assess the SR fault detection performance of state-of-the-art security analyzers, with the aim of understanding their capability and identifying their deficiencies. Via evaluating 12 representative tools on a benchmark comprising 243 contracts with six types of SR faults and the corresponding patched versions, we observe that existing tools exhibit limited capabilities in detecting SR faults (the average detection rate is 14.4%). This result underscores the need for more advanced security analysis tools specifically tailored for SR faults. To facilitate the development of such tools, we further provide a comprehensive analysis of three common limitations of existing tools.",
         "tags": [
             "Smart Contracts",
             "Empirical study",
-            "Vulnerability",
-            "Security"
+            "Security",
+            "Vulnerability"
         ],
         "arxivUrl": "",
         "paperUrl": "https://doi.org/10.1007/s10664-025-10685-3",
@@ -112,7 +112,7 @@ module.exports = [
             "Mocking",
             "Empirical study",
             "Unit Test",
-            "Fault Detection"
+            "Java"
         ],
         "arxivUrl": "",
         "paperUrl": "https://doi.org/10.1145/3715741",
@@ -239,8 +239,9 @@ module.exports = [
         "abstract": "Ruiyang Xu, Jialun Cao, Yaojie Lu, Ming Wen, Hongyu Lin, Xianpei Han, Ben He, Shing-Chi Cheung, Le Sun. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2025.",
         "tags": [
             "LLM",
-            "Program Analysis",
-            "Empirical study"
+            "Program Synthesis",
+            "Natural Language Processing",
+            "Empirical Study"
         ],
         "arxivUrl": "",
         "paperUrl": "https://aclanthology.org/2025.acl-long.1158/",
@@ -269,7 +270,7 @@ module.exports = [
         "abstract": "Jialun Cao, Yaojie Lu, Meiziniu Li, Haoyang Ma, Haokun Li, Mengda He, Cheng Wen, Le Sun, Hongyu Zhang, Shengchao Qin, Shing-Chi Cheung, Cong Tian. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2025.",
         "tags": [
             "LLM",
-            "Program Analysis",
+            "Program Synthesis",
             "Empirical study"
         ],
         "arxivUrl": "",
@@ -364,10 +365,10 @@ module.exports = [
         "venueShort": "ASE",
         "abstract": "OpenHarmony is a new mobile operating system that offers a popular alternative to Android and iOS. To support its adoption, significant efforts have been devoted to porting C/C++ libraries from Linux to OpenHarmony. However, this porting process presents unique challenges due to the fundamental architectural differences in system libraries, runtime environments, and build systems between the two platforms. These discrepancies manifest as Cross-platform Incompatibility (CPI) issues during cross-compilation, which are particularly difficult to resolve for two key reasons. First, conventional cross-compilation toolchains provide only brief error messages that offer inadequate diagnostic information for CPI issues. Second, resolving these issues requires a deep understanding of cross-platform discrepancies, yet comprehensive documentation or systematic guidelines about such Linux-to-OpenHarmony differences remain largely unavailable.In this experience paper, to assist developers in addressing these challenges, we conducted an empirical study on 92 C/C++ libraries successfully ported to OpenHarmony. Through manual step-by-step reproduction of all CPI issues, our study reveals that discrepancies between Linux and OpenHarmony can be divided into three categories, and CPI issues can manifest through eight dimensions. Furthermore, we identified eight common adaptation strategies for resolving CPI issues. Based on these findings, we present Cross2OH, an automated technique for porting Linux-based software to OpenHarmony. Our approach combines: (1) an adaptation knowledge base (derived from RQ1 and RQ2 findings) and (2) a static analysis approach to detect and patch eight types of CPI issues. Evaluation using real developer patches shows Cross2OH achieves 0.94 recall and 0.91 precision in resolving CPI issues. Notably, Cross2OH enables successful cross-compilation for 40 critical libraries (including dependencies for popular Android apps such as WeChat, Microsoft Excel, Bilibili), with 29 of them passed official OpenHarmony review. The evaluation results demonstrate Cross2OH’s potential to streamline the porting process and foster the growth of the OpenHarmony software ecosystem.",
         "tags": [
-            "Cross-platform Incompatibility",
+            "Compatibility Issues",
             "Empirical study",
             "Program Analysis",
-            "C/C++ Libraries"
+            "Testing"
         ],
         "arxivUrl": "",
         "paperUrl": "https://doi.org/10.1109/ASE63991.2025.00146",
@@ -393,7 +394,7 @@ module.exports = [
             "Third-Party Libraries",
             "Binary Software Composition Analysis",
             "Program Analysis",
-            "Vulnerability"
+            "Fault Detection"
         ],
         "arxivUrl": "",
         "paperUrl": "https://doi.org/10.1109/ASE63991.2025.00148",
@@ -423,7 +424,7 @@ module.exports = [
         ],
         "arxivUrl": "",
         "paperUrl": "https://doi.org/10.1109/ASE63991.2025.00183",
-        "bibtex": "@inproceedings{DBLP:conf/kbse/ZhuCTWLWC25,\n  author       = {Hengcheng Zhu and\n                  Songqiang Chen and\n                  Valerio Terragni and\n                  Lili Wei and\n                  Yepang Liu and\n                  Jiarong Wu and\n                  Shing{-}Chi Cheung},\n  title        = {LspFuzz: Hunting Bugs in Language Servers},\n  booktitle    = {40th {IEEE/ACM} International Conference on Automated Software Engineering,\n                  {ASE} 2025, Seoul, Korea, Republic of, November 16-20, 2025},\n  pages        = {2209--2221},\n  publisher    = {{IEEE}},\n  year         = {2025},\n  url          = {https://doi.org/10.1109/ASE63991.2025.00183},\n  doi          = {10.1109/ASE63991.2025.00183},\n  timestamp    = {Tue, 07 Apr 2026 01:00:00 +0200},\n  biburl       = {https://dblp.org/rec/conf/kbse/ZhuCTWLWC25.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
+        "bibtex": "@inproceedings{DBLP:conf/kbse/ZhuCTWLWC25,\n  author       = {Hengcheng Zhu and\n                  Songqiang Chen and\n                  Valerio Terragni and\n                  Lili Wei and\n                  Yepang Liu and\n                  Jiarong Wu and\n                  Shing{-}Chi Cheung},\n  title        = {LspFuzz: Hunting Bugs in Language Servers},\n  booktitle    = {40th {IEEE/ACM} International Conference on Automated Software Engineering,\n                  {ASE} 2025, Seoul, Korea, Republic of, November 16-20, 2025},\n  pages        = {2209--2221},\n  publisher    = {{IEEE}},\n  year         = {2025},\n  url          = {https://doi.org/10.1109/ASE63991.2025.00183},\n  doi          = {10.1109/ASE63991.2025.00183},\n  timestamp    = {Sun, 08 Feb 2026 00:00:00 +0100},\n  biburl       = {https://dblp.org/rec/conf/kbse/ZhuCTWLWC25.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
         "awards": []
     },
     {
@@ -442,7 +443,7 @@ module.exports = [
             "Metamorphic Testing",
             "Machine Translation",
             "Testing",
-            "Fault Detection"
+            "Semantic Comparison"
         ],
         "arxivUrl": "",
         "paperUrl": "https://doi.org/10.1145/3675396",
@@ -465,7 +466,7 @@ module.exports = [
             "Program Synthesis",
             "Unit Test",
             "Software Analytics",
-            "Fault Detection"
+            "Empirical study"
         ],
         "arxivUrl": "",
         "paperUrl": "https://doi.org/10.1145/3676959",
@@ -493,7 +494,7 @@ module.exports = [
             "Formal Software Verification",
             "Program Synthesis",
             "LLM",
-            "Program Analysis"
+            "Specification Synthesis"
         ],
         "arxivUrl": "",
         "paperUrl": "https://doi.org/10.1007/978-3-031-65630-9_16",
@@ -547,27 +548,6 @@ module.exports = [
         "arxivUrl": "",
         "paperUrl": "https://doi.org/10.1145/3691620.3695470",
         "bibtex": "@inproceedings{DBLP:conf/kbse/CaoCWC024,\n  author       = {Jialun Cao and\n                  Zhiyong Chen and\n                  Jiarong Wu and\n                  Shing{-}Chi Cheung and\n                  Chang Xu},\n  editor       = {Vladimir Filkov and\n                  Baishakhi Ray and\n                  Minghui Zhou},\n  title        = {JavaBench: {A} Benchmark of Object-Oriented Code Generation for Evaluating\n                  Large Language Models},\n  booktitle    = {Proceedings of the 39th {IEEE/ACM} International Conference on Automated\n                  Software Engineering, {ASE} 2024, Sacramento, CA, USA, October 27\n                  - November 1, 2024},\n  pages        = {870--882},\n  publisher    = {{ACM}},\n  year         = {2024},\n  url          = {https://doi.org/10.1145/3691620.3695470},\n  doi          = {10.1145/3691620.3695470},\n  timestamp    = {Mon, 03 Mar 2025 00:00:00 +0100},\n  biburl       = {https://dblp.org/rec/conf/kbse/CaoCWC024.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
-        "awards": []
-    },
-    {
-        "title": "Proceedings of the 15th Asia-Pacific Symposium on Internetware, Internetware 2024, Macau, SAR, China, July 24-26, 2024.",
-        "date": "2024",
-        "authors": [
-            "Hong Mei",
-            "Jian Lv",
-            "Abdelsalam Helal",
-            "Xiaoxing Ma",
-            "Shing-Chi Cheung",
-            "Jie Zhang",
-            "Tao Zhang"
-        ],
-        "venue": "",
-        "venueShort": "",
-        "abstract": "",
-        "tags": [],
-        "arxivUrl": "",
-        "paperUrl": "https://doi.org/10.1145/3671016",
-        "bibtex": "@proceedings{DBLP:conf/internetware/2024,\n  editor       = {Hong Mei and\n                  Jian Lv and\n                  Abdelsalam Helal and\n                  Xiaoxing Ma and\n                  Shing{-}Chi Cheung and\n                  Jie Zhang and\n                  Tao Zhang},\n  title        = {Proceedings of the 15th Asia-Pacific Symposium on Internetware, Internetware\n                  2024, Macau, SAR, China, July 24-26, 2024},\n  publisher    = {{ACM}},\n  year         = {2024},\n  url          = {https://doi.org/10.1145/3671016},\n  doi          = {10.1145/3671016},\n  timestamp    = {Tue, 20 Aug 2024 01:00:00 +0200},\n  biburl       = {https://dblp.org/rec/conf/internetware/2024.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
         "awards": []
     },
     {
@@ -786,10 +766,10 @@ module.exports = [
         "venueShort": "ESEC/FSE",
         "abstract": "A Machine Learning (ML) pipeline configures the workflow of a learning task using the APIs provided by ML libraries. However, a pipeline’s performance can vary significantly across different configurations of ML library versions. Misconfigured pipelines can result in inferior performance, such as poor execution time and memory usage, numeric errors and even crashes. A pipeline is subject to misconfiguration if it exhibits significantly inconsistent performance upon changes in the versions of its configured libraries or the combination of these libraries. We refer to such performance inconsistency as a pipeline configuration (PLC) issue.",
         "tags": [
-            "ML Pipeline",
+            "ML pipeline",
             "Compatibility Issues",
-            "Performance Inconsistency",
-            "Configuration Testing"
+            "Performance inconsistency",
+            "Configuration testing"
         ],
         "arxivUrl": "",
         "paperUrl": "https://doi.org/10.1145/3611643.3616352",
@@ -812,9 +792,9 @@ module.exports = [
         "abstract": "Federated learning (FL) is an emerging machine learning paradigm that aims to address the problem of isolated data islands. To preserve privacy, FL allows machine learning models and deep neural networks to be trained from decentralized data kept privately at individual devices. FL has been increasingly adopted in missioncritical fields such as finance and healthcare. However, bugs in FL systems are inevitable and may result in catastrophic consequences such as financial loss, inappropriate medical decision, and violation of data privacy ordinance. While many recent studies were conducted to understand the bugs in machine learning systems, there is no existing study to characterize the bugs arising from the unique nature of FL systems. To fill the gap, we collected 395 real bugs from six popular FL frameworks (Tensorflow Federated, PySyft, FATE, Flower, PaddleFL, and Fedlearner) in GitHub and StackOverflow, and then manually analyzed their symptoms and impacts, prone stages, root causes, and fix strategies. Furthermore, we report a series of findings and actionable implications that can potentially facilitate the detection of FL bugs.",
         "tags": [
             "Federated Learning",
-            "Bug Characterization",
+            "Bug Detection",
             "Empirical study",
-            "Testing"
+            "Deep Learning"
         ],
         "arxivUrl": "",
         "paperUrl": "https://doi.org/10.1145/3611643.3616347",
@@ -835,9 +815,9 @@ module.exports = [
         "abstract": "Unsupervised image-to-image translation aims to learn the mapping from an input image in a source domain to an output image in a target domain without paired training dataset. Recently, remarkable progress has been made in translation due to the development of generative adversarial networks (GANs). However, existing methods suffer from the training instability as gradients passing from discriminator to generator become less informative when the source and target domains exhibit sufficiently large discrepancies in appearance or shape. To handle this challenging problem, in this paper, we propose a novel multi-constraint adversarial model (MCGAN) for image translation in which multiple adversarial constraints are applied at generator's multi-scale outputs by a single discriminator to pass gradients to all the scales simultaneously and assist generator training for capturing large discrepancies in appearance between two domains. We further notice that the solution to regularize generator is helpful in stabilizing adversarial training, but results may have unreasonable structure or blurriness due to less context information flow from discriminator to generator. Therefore, we adopt dense combinations of the dilated convolutions at discriminator for supporting more information flow to generator. With extensive experiments on three public datasets, cat-to-dog, horse-to-zebra, and apple-to-orange, our method significantly improves state-of-the-arts on all datasets.",
         "tags": [
             "Deep Learning",
+            "Neural Networks",
             "Generative Adversarial Networks",
-            "Image-to-Image Translation",
-            "Neural Networks"
+            "Image-to-Image Translation"
         ],
         "arxivUrl": "",
         "paperUrl": "https://doi.org/10.1109/TIP.2022.3144886",
