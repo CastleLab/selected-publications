@@ -95,11 +95,7 @@ jobs:
           echo "Using config: $CI_CONFIG_FILE"
           ./sp --config "$CI_CONFIG_FILE"
 
-      - name: Install JS dependencies
-        run: npm install
 
-      - name: Update bundle.json
-        run: npm run build
 
       - name: Check for changes to commit
         id: check_changes
