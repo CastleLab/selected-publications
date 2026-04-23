@@ -1,0 +1,3 @@
+[submodule "dblp-publications-scraper"]
+	path = dblp-publications-scraper
+	url = https://github.com/imethanguo/dblp-publications-scraper.git
