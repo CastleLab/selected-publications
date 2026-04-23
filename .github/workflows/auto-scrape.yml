@@ -102,14 +102,19 @@ jobs:
         run: npm run build
 
       - name: Check for changes to commit
+        id: check_changes
         run: |
           git add -A
           if git diff --cached --quiet; then
+            echo "::set-output name=changes_detected::false"
             echo "No changes to commit, skipping PR."
             exit 0
+          else
+            echo "::set-output name=changes_detected::true"
           fi
 
       - name: Create pull request for updates
+        if: steps.check_changes.outputs.changes_detected == 'true'
         uses: peter-evans/create-pull-request@v7
         with:
           commit-message: "chore: auto update publications"
