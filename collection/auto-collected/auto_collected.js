@@ -949,5 +949,52 @@ module.exports = [
         "paperUrl": "https://doi.org/10.1109/ASE51524.2021.9678597",
         "bibtex": "@inproceedings{DBLP:conf/kbse/LiuWZ00C21,\n  author       = {Lu Liu and\n                  Lili Wei and\n                  Wuqi Zhang and\n                  Ming Wen and\n                  Yepang Liu and\n                  Shing{-}Chi Cheung},\n  title        = {Characterizing Transaction-Reverting Statements in Ethereum Smart\n                  Contracts},\n  booktitle    = {36th {IEEE/ACM} International Conference on Automated Software Engineering,\n                  {ASE} 2021, Melbourne, Australia, November 15-19, 2021},\n  pages        = {630--641},\n  publisher    = {{IEEE}},\n  year         = {2021},\n  url          = {https://doi.org/10.1109/ASE51524.2021.9678597},\n  doi          = {10.1109/ASE51524.2021.9678597},\n  timestamp    = {Fri, 16 May 2025 01:00:00 +0200},\n  biburl       = {https://dblp.org/rec/conf/kbse/LiuWZ00C21.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
         "awards": []
+    },
+    {
+        "title": "A study on prompt design, advantages and limitations of ChatGPT for deep learning program repair.",
+        "date": "2025",
+        "authors": [
+            "Jialun Cao",
+            "Meiziniu Li",
+            "Ming Wen",
+            "Shing-Chi Cheung"
+        ],
+        "venue": "Automated Software Engineering",
+        "venueShort": "ASEJ",
+        "abstract": "The emergence of large language models (LLMs) such as ChatGPT has revolutionized many fields. In particular, recent advances in LLMs have triggered various studies examining the use of these models for software development tasks, such as program repair, code understanding, and code generation. Prior studies have shown the capability of ChatGPT in repairing conventional programs. However, debugging deep learning (DL) programs poses unique challenges since the decision logic is not directly encoded in the source code. This requires LLMs to not only parse the source code syntactically but also understand the intention of DL programs. Therefore, ChatGPT’s capability in repairing DL programs remains unknown. To fill this gap, our study aims to answer three research questions: (1) Can ChatGPT debug DL programs effectively? (2) How can ChatGPT’s repair performance be improved by prompting? (3) In which way can dialogue help facilitate the repair? Our study analyzes the typical information that is useful for prompt design and suggests enhanced prompt templates that are more efficient for repairing DL programs. On top of them, we summarize the dual perspectives (i.e., advantages and disadvantages) of ChatGPT’s ability, such as its handling of API misuse and recommendation, and its shortcomings in identifying default parameters. Our findings indicate that ChatGPT has the potential to repair DL programs effectively and that prompt engineering and dialogue can further improve its performance by providing more code intention. We also identified the key intentions that can enhance ChatGPT’s program repairing capability.",
+        "tags": [
+            "LLM",
+            "Program Repair",
+            "Deep Learning"
+        ],
+        "arxivUrl": "",
+        "paperUrl": "https://doi.org/10.1007/s10515-025-00492-x",
+        "bibtex": "@article{DBLP:journals/ase/CaoLWC25,\n  author       = {Jialun Cao and\n                  Meiziniu Li and\n                  Ming Wen and\n                  Shing{-}Chi Cheung},\n  title        = {A study on prompt design, advantages and limitations of ChatGPT for\n                  deep learning program repair},\n  journal      = {Autom. Softw. Eng.},\n  volume       = {32},\n  number       = {1},\n  pages        = {30},\n  year         = {2025},\n  url          = {https://doi.org/10.1007/s10515-025-00492-x},\n  doi          = {10.1007/S10515-025-00492-X},\n  timestamp    = {Sun, 15 Jun 2025 01:00:00 +0200},\n  biburl       = {https://dblp.org/rec/journals/ase/CaoLWC25.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
+        "awards": []
+    },
+    {
+        "title": "Understanding and Characterizing Mock Assertions in Unit Tests.",
+        "date": "2025",
+        "authors": [
+            "Hengcheng Zhu",
+            "Valerio Terragni",
+            "Lili Wei",
+            "Shing-Chi Cheung",
+            "Jiarong Wu",
+            "Yepang Liu"
+        ],
+        "venue": "Proceedings of the ACM on Software Engineering",
+        "venueShort": "TOSEM",
+        "abstract": "Mock assertions provide developers with a powerful means to validate program behaviors that are unobservable to test assertions. Despite their significance, they are rarely considered by automated test generation techniques. Effective generation of mock assertions requires understanding how they are used in practice. Although previous studies highlighted the importance of mock assertions, none provide insight into their usages. To bridge this gap, we conducted the first empirical study on mock assertions, examining their adoption, the characteristics of the verified method invocations, and their effectiveness in fault detection. Our analysis of 4,652 test cases from 11 popular Java projects reveals that mock assertions are mostly applied to validating specific kinds of method calls, such as those interacting with external resources and those reflecting whether a certain code path was traversed in systems under test. Additionally, we find that mock assertions complement traditional test assertions by ensuring the desired side effects have been produced, validating control flow logic, and checking internal computation results. Our findings contribute to a better understanding of mock assertion usages and provide a foundation for future related research such as automated test generation that support mock assertions.",
+        "tags": [
+            "Mocking",
+            "Empirical Study",
+            "Unit Test",
+            "Java"
+        ],
+        "arxivUrl": "",
+        "paperUrl": "https://doi.org/10.1145/3715741",
+        "bibtex": "@article{DBLP:journals/pacmse/ZhuTWCWL25,\n  author       = {Hengcheng Zhu and\n                  Valerio Terragni and\n                  Lili Wei and\n                  Shing{-}Chi Cheung and\n                  Jiarong Wu and\n                  Yepang Liu},\n  title        = {Understanding and Characterizing Mock Assertions in Unit Tests},\n  journal      = {Proc. {ACM} Softw. Eng.},\n  volume       = {2},\n  number       = {{FSE}},\n  pages        = {554--575},\n  year         = {2025},\n  url          = {https://doi.org/10.1145/3715741},\n  doi          = {10.1145/3715741},\n  timestamp    = {Sat, 06 Sep 2025 01:00:00 +0200},\n  biburl       = {https://dblp.org/rec/journals/pacmse/ZhuTWCWL25.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
+        "awards": []
     }
 ]
