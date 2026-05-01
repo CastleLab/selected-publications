@@ -1,5 +1,54 @@
 module.exports = [
     {
+        "title": "Automated Unit Test Generation via Chain-of-Thought Prompt and Reinforcement Learning from Coverage Feedback.",
+        "date": "2026",
+        "authors": [
+            "Junwei Zhang",
+            "Xing Hu",
+            "Xin Xia",
+            "Shing-Chi Cheung",
+            "Shanping Li"
+        ],
+        "venue": "ACM Transactions on Software Engineering and Methodology",
+        "venueShort": "TOSEM",
+        "abstract": "Recently, Large Language Models (LLMs) have shown promising results in code generation, and several automated test generation approaches based on LLMs have been proposed. Although these approaches achieve promising performance, they suffer from two limitations. First, they lack the intrinsic understanding of the semantic intricacies and logical constructs inherent to the focal method. Second, they ignore the diversity of the generated tests and generate tests with limited code coverage. To alleviate these two limitations, in this work, we propose a novel approach named TestCTRL that optimizes LLMs for unit test generation by the Chain-of-Thought (CoT) prompt and Reinforcement Learning (RL) strategy. Specifically, we first build a new CoT dataset, containing the focal methods, corresponding unit tests, and CoT prompts. The CoT prompt includes the intention and possible test input values. Then, the CoT dataset is used to fine-tune one LLM (i.e., CodeLlama 7B) that can be seen as the policy model in RL. Meanwhile, we fine-tune another LLM (i.e., CodeGPT) as the reward model by predicting the line coverage of the focal method and its test. Moreover, we employ the Proximal Policy Optimization (PPO) algorithm to optimize the policy model and generate unit tests. We use the Defects4J benchmark to evaluate our approach from three perspectives (i.e., naturalness, validity, and code coverage). To avoid data leakage threats, we filtered out data from the CoT dataset that have the same focal method and test case names as those in the Defects4J. The experimental results demonstrate that TestCTRL outperforms state-of-the-art baselines in line and branch coverages, respectively. Besides, TestCTRL improves bug detection performance. We also investigate the reason for the proposed approach’s superiority.",
+        "tags": [
+            "LLM",
+            "Unit Test",
+            "Reinforcement Learning",
+            "Code Coverage"
+        ],
+        "arxivUrl": "",
+        "paperUrl": "https://doi.org/10.1145/3745765",
+        "bibtex": "@article{DBLP:journals/tosem/ZhangHXCL26,\n  author       = {Junwei Zhang and\n                  Xing Hu and\n                  Xin Xia and\n                  Shing{-}Chi Cheung and\n                  Shanping Li},\n  title        = {Automated Unit Test Generation via Chain-of-Thought Prompt and Reinforcement\n                  Learning from Coverage Feedback},\n  journal      = {{ACM} Trans. Softw. Eng. Methodol.},\n  volume       = {35},\n  number       = {4},\n  pages        = {92:1--92:30},\n  year         = {2026},\n  url          = {https://doi.org/10.1145/3745765},\n  doi          = {10.1145/3745765},\n  timestamp    = {Wed, 29 Apr 2026 01:00:00 +0200},\n  biburl       = {https://dblp.org/rec/journals/tosem/ZhangHXCL26.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
+        "awards": []
+    },
+    {
+        "title": "Enhancing Differential Testing with LLMs for Testing Deep Learning Libraries.",
+        "date": "2026",
+        "authors": [
+            "Meiziniu Li",
+            "Dongze Li",
+            "Jianmeng Liu",
+            "Jialun Cao",
+            "Yongqiang Tian",
+            "Shing-Chi Cheung"
+        ],
+        "venue": "ACM Transactions on Software Engineering and Methodology",
+        "venueShort": "TOSEM",
+        "abstract": "Differential testing offers a promising strategy to alleviate the test oracle problem by comparing the test results between alternative implementations. However, existing differential testing techniques for deep learning (DL) libraries are limited by the key challenges of finding alternative implementations (called \\(counterparts\\) ) for a given API and subsequently generating diverse test inputs. To address the two challenges, this article introduces DLLens , a large language model (LLM)-enhanced differential testing technique for DL libraries. The first challenge is addressed by an observation that DL libraries are commonly designed to support the computation of a similar set of DL algorithms. Therefore, the counterpart of a given API’s computation could be successfully synthesized through certain composition and adaptation of the APIs from another DL library. DLLens incorporates a novel counterpart synthesis workflow, leveraging a LLM to search for valid counterparts for differential testing. To address the second challenge, DLLens incorporates a static analysis technique that extracts the path constraints from the implementations of a given API and its counterpart to guide diverse test input generation. The extraction is facilitated by LLM’s knowledge of the concerned DL library and its upstream libraries. DLLens incorporates validation mechanisms to manage the LLM’s hallucinations in counterpart synthesis and path constraint extraction. We evaluate DLLens on two popular DL libraries, TensorFlow and PyTorch. Our evaluation shows that DLLens synthesizes counterparts for 1.84 times as many APIs as those found by state-of-the-art techniques on these libraries. Moreover, under the same time budget, DLLens covers 7.23% more branches and detects 1.88 times as many bugs as state-of-the-art techniques on 200 randomly sampled APIs. DLLens has successfully detected 71 bugs in recent TensorFlow and PyTorch libraries. Among them, 59 are confirmed by developers, including 46 confirmed as previously unknown bugs, and 10 of these previously unknown bugs have been fixed in the latest version of TensorFlow and PyTorch.",
+        "tags": [
+            "Differential Testing",
+            "LLM",
+            "Deep Learning",
+            "Bug Detection"
+        ],
+        "arxivUrl": "",
+        "paperUrl": "https://doi.org/10.1145/3735637",
+        "bibtex": "@article{DBLP:journals/tosem/LiLLCTC26,\n  author       = {Meiziniu Li and\n                  Dongze Li and\n                  Jianmeng Liu and\n                  Jialun Cao and\n                  Yongqiang Tian and\n                  Shing{-}Chi Cheung},\n  title        = {Enhancing Differential Testing with LLMs for Testing Deep Learning\n                  Libraries},\n  journal      = {{ACM} Trans. Softw. Eng. Methodol.},\n  volume       = {35},\n  number       = {4},\n  pages        = {88:1--88:39},\n  year         = {2026},\n  url          = {https://doi.org/10.1145/3735637},\n  doi          = {10.1145/3735637},\n  timestamp    = {Wed, 29 Apr 2026 01:00:00 +0200},\n  biburl       = {https://dblp.org/rec/journals/tosem/LiLLCTC26.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
+        "awards": []
+    },
+    {
         "title": "Managing Software Supply Chains - Theory and Practice.",
         "date": "2025",
         "authors": [
