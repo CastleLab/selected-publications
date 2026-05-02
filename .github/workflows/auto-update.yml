@@ -5,8 +5,8 @@ env:
 
 on:
   schedule:
-    # 每两周的周一凌晨2点运行
-    - cron: '0 2 * * 1/2'
+    # 每月的1号和16号的凌晨2点(UTC)触发
+    - cron: '0 2 1,16 * *'
   workflow_dispatch:
 
 permissions:
