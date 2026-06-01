@@ -1,5 +1,28 @@
 module.exports = [
     {
+        "title": "ModelWisdom: An Integrated Toolkit for TLA+ Model Visualization, Digest and Repair (Short Tool Paper).",
+        "date": "2026",
+        "authors": [
+            "Zhiyong Chen",
+            "Jialun Cao",
+            "Chang Xu",
+            "Shing-Chi Cheung"
+        ],
+        "venue": "Formal Methods - 27th International Symposium",
+        "venueShort": "FM",
+        "abstract": "Model checking in TLA+ provides strong correctness guarantees, yet practitioners continue to face significant challenges in interpreting counterexamples, understanding large state-transition graphs, and repairing faulty models. These difficulties stem from the limited explainability of raw model-checker output and the substantial manual effort required to trace violations back to source specifications. Although the TLA+ Toolbox includes a state diagram viewer, it offers only a static, fully expanded graph without folding, color highlighting, or semantic explanations, which limits its scalability and interpretability. We present ModelWisdom, an interactive environment that uses visualization and large language models to make TLA+ model checking more interpretable and actionable. ModelWisdom offers: (i) Model Visualization, with colorized violation highlighting, click-through links from transitions to TLA+ code, and mapping between violating states and broken properties; (ii) Graph Optimization, including tree-based structuring and node/edge folding to manage large models; (iii) Model Digest, which summarizes and explains subgraphs via large language models (LLMs) and performs preprocessing and partial explanations; and (iv) Model Repair, which extracts error information and supports iterative debugging. Together, these capabilities turn raw model-checker output into an interactive, explainable workflow, improving understanding and reducing debugging effort for nontrivial TLA+ specifications. This tool is available: https://github.com/ModelWisdom/ModelWisdom . A demonstrative video can be found at https://www.youtube.com/watch?v=plyZo30VShA .",
+        "tags": [
+            "Model Checking",
+            "TLA+",
+            "LLM",
+            "Program Repair"
+        ],
+        "arxivUrl": "",
+        "paperUrl": "https://doi.org/10.1007/978-3-032-26204-2_11",
+        "bibtex": "@inproceedings{DBLP:conf/fm/ChenCXC26,\n  author       = {Zhiyong Chen and\n                  Jialun Cao and\n                  Chang Xu and\n                  Shing{-}Chi Cheung},\n  editor       = {Augusto Sampaio and\n                  Marielle Stoelinga},\n  title        = {ModelWisdom: An Integrated Toolkit for TLA\\({}^{\\mbox{+}}\\) Model\n                  Visualization, Digest and Repair (Short Tool Paper)},\n  booktitle    = {Formal Methods - 27th International Symposium, {FM} 2026, Tokyo, Japan,\n                  May 18-22, 2026, Proceedings, Part {I}},\n  series       = {Lecture Notes in Computer Science},\n  pages        = {211--219},\n  publisher    = {Springer},\n  year         = {2026},\n  url          = {https://doi.org/10.1007/978-3-032-26204-2\\_11},\n  doi          = {10.1007/978-3-032-26204-2\\_11},\n  timestamp    = {Thu, 28 May 2026 08:35:04 +0200},\n  biburl       = {https://dblp.org/rec/conf/fm/ChenCXC26.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
+        "awards": []
+    },
+    {
         "title": "Automated Unit Test Generation via Chain-of-Thought Prompt and Reinforcement Learning from Coverage Feedback.",
         "date": "2026",
         "authors": [
