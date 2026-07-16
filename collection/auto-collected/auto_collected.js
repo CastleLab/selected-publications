@@ -1,5 +1,32 @@
 module.exports = [
     {
+        "title": "Across Programming Language Silos: A Study on Cross-Lingual Retrieval-Augmented Code Generation.",
+        "date": "2026",
+        "authors": [
+            "Qiming Zhu",
+            "Jialun Cao",
+            "Xuanang Chen",
+            "Weili Zhang",
+            "Yaojie Lu",
+            "Hongyu Lin",
+            "Xianpei Han",
+            "Le Sun",
+            "Shing-Chi Cheung"
+        ],
+        "venue": "Findings of the Association for Computational Linguistics",
+        "venueShort": "ACL Findings",
+        "abstract": "Qiming Zhu, Jialun Cao, Xuanang Chen, Weili Zhang, Yaojie Lu, Hongyu Lin, Xianpei Han, Le Sun, Shing-Chi Cheung. Findings of the Association for Computational Linguistics: ACL 2026. 2026.",
+        "tags": [
+            "LLM",
+            "Program Analysis",
+            "Empirical study"
+        ],
+        "arxivUrl": "",
+        "paperUrl": "https://aclanthology.org/2026.findings-acl.1216/",
+        "bibtex": "@inproceedings{DBLP:conf/acl/ZhuCCZLLHSC26,\n  author       = {Qiming Zhu and\n                  Jialun Cao and\n                  Xuanang Chen and\n                  Weili Zhang and\n                  Yaojie Lu and\n                  Hongyu Lin and\n                  Xianpei Han and\n                  Le Sun and\n                  Shing{-}Chi Cheung},\n  editor       = {Maria Liakata and\n                  Viviane P. Moreira and\n                  Jiajun Zhang and\n                  David Jurgens},\n  title        = {Across Programming Language Silos: {A} Study on Cross-Lingual Retrieval-Augmented\n                  Code Generation},\n  booktitle    = {Findings of the Association for Computational Linguistics, {ACL} 2026,\n                  San Diego, California, United States, July 2-7, 2026},\n  pages        = {24283--24296},\n  publisher    = {Association for Computational Linguistics},\n  year         = {2026},\n  url          = {https://aclanthology.org/2026.findings-acl.1216/},\n  timestamp    = {Wed, 08 Jul 2026 01:00:00 +0200},\n  biburl       = {https://dblp.org/rec/conf/acl/ZhuCCZLLHSC26.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}\n}",
+        "awards": []
+    },
+    {
         "title": "ModelWisdom: An Integrated Toolkit for TLA+ Model Visualization, Digest and Repair (Short Tool Paper).",
         "date": "2026",
         "authors": [
